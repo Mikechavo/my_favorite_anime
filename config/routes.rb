@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'jjk/index'
-  root 'jjk#index'
+  get '/', to: 'jjk#index'
+  root to: 'jjk#index'
 end

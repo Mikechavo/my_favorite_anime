@@ -1,0 +1,4 @@
+.flipped {
+  transform: scaleX(-1); /* Flip horizontally */
+  /* Add any other styling for the flipped image */
+}

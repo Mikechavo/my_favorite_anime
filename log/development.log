@@ -1,0 +1,1195 @@
+Started GET "/" for ::1 at 2023-10-04 15:58:31 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.erb within layouts/application
+  Rendered jjk/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 440)
+  Rendered layout layouts/application.html.erb (Duration: 237.3ms | Allocations: 91644)
+Completed 200 OK in 273ms (Views: 241.7ms | ActiveRecord: 0.0ms | Allocations: 98670)
+
+
+Started GET "/" for ::1 at 2023-10-04 15:59:31 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 41.6ms | Allocations: 19507)
+  Rendered layout layouts/application.html.erb (Duration: 63.5ms | Allocations: 22258)
+Completed 200 OK in 72ms (Views: 69.1ms | ActiveRecord: 0.0ms | Allocations: 23124)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:00:42 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-10-04 16:00:56 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 14005)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms | Allocations: 14534)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:05:37 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 37.6ms | Allocations: 2304)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 2392)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms | Allocations: 3249)
+
+
+  
+ActionView::Template::Error (Unexpected indentation
+  /Users/learnacademy/Desktop/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 2, Column 2
+    head
+    ^
+):
+    1: doctype html
+    2:   head
+    3:     meta content=("text/html; charset=UTF-8")
+    4:     http-equiv="Content-Type"
+    5:     title My Favorite Anime
+  
+app/views/jjk/index.html.slim:2
+Started GET "/" for ::1 at 2023-10-04 16:06:19 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.8ms | Allocations: 2263)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2351)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3187)
+
+
+  
+ActionView::Template::Error (Unexpected indentation
+  /Users/learnacademy/Desktop/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 2, Column 2
+    head
+    ^
+):
+    1: doctype html
+    2:   head
+    3:     meta content=("text/html; charset=UTF-8")
+    4:     http-equiv="Content-Type"
+    5:     title My Favorite Anime
+  
+app/views/jjk/index.html.slim:2
+Started GET "/" for ::1 at 2023-10-04 16:07:25 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 12.7ms | Allocations: 5374)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 8084)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.0ms | Allocations: 8943)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:08:12 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 4.3ms | Allocations: 4763)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 7452)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 8311)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:08:26 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.2ms | Allocations: 4355)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 7047)
+Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 7906)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:09:14 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 3.8ms | Allocations: 5070)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 7762)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8621)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:09:29 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 3.9ms | Allocations: 3642)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3731)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 4570)
+
+
+  
+ActionView::Template::Error (Illegal shortcut
+  /Users/learnacademy/Desktop/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 9, Column 8
+    h1#.center My Favorite Anime  
+      ^
+):
+     6:     link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+     7:   body
+     8:     header
+     9:       h1#.center My Favorite Anime  
+    10:    
+  
+app/views/jjk/index.html.slim:9
+Started GET "/" for ::1 at 2023-10-04 16:09:38 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 2.4ms | Allocations: 3645)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 3734)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4573)
+
+
+  
+ActionView::Template::Error (Illegal shortcut
+  /Users/learnacademy/Desktop/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 9, Column 8
+    h1#.top My Favorite Anime  
+      ^
+):
+     6:     link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+     7:   body
+     8:     header
+     9:       h1#.top My Favorite Anime  
+    10:    
+  
+app/views/jjk/index.html.slim:9
+Started GET "/" for ::1 at 2023-10-04 16:09:57 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 15.7ms | Allocations: 5377)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 8099)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 8960)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:10:09 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 4.7ms | Allocations: 5348)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 8070)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 8929)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:10:57 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.2ms | Allocations: 5349)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 8068)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 8927)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:11:19 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.8ms | Allocations: 5761)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 8459)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 9318)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:13:20 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 20.8ms | Allocations: 7645)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 10352)
+Completed 200 OK in 45ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 11211)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:14:07 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.3ms | Allocations: 7788)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 10492)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 11351)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:14:15 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.6ms | Allocations: 7788)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 10480)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 11339)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:15:14 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.5ms | Allocations: 8122)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 10823)
+Completed 200 OK in 37ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 11682)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:15:33 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.2ms | Allocations: 8122)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 10841)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 11700)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:15:52 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.1ms | Allocations: 8121)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 10834)
+Completed 200 OK in 35ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 11693)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:16:02 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.1ms | Allocations: 8130)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 10842)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 11706)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:16:26 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.8ms | Allocations: 8327)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 11076)
+Completed 200 OK in 36ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 11937)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:18:12 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.3ms | Allocations: 8134)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 10829)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 11688)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:18:16 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2427)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2691)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:19:08 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 24.5ms | Allocations: 4847)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 4935)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms | Allocations: 5770)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /Users/learnacademy/Desktop/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 16, Column 5
+    h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    ^
+):
+    13:       center
+    14:         img#goblinslayer border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1"
+    15: 
+    16:      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    17:       center
+    18:         img#goblinslayer border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1"
+    19:    
+  
+app/views/jjk/index.html.slim:16
+Started GET "/" for ::1 at 2023-10-04 16:19:36 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 14.3ms | Allocations: 4850)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4938)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms | Allocations: 5774)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /Users/learnacademy/Desktop/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 16, Column 5
+    h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    ^
+):
+    13:       center
+    14:         img#goblinslayer border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1"
+    15: 
+    16:      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    17:       
+    18:         img#goblinslayer border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1"
+    19:    
+  
+app/views/jjk/index.html.slim:16
+Started GET "/" for ::1 at 2023-10-04 16:19:45 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 27.9ms | Allocations: 9985)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 12707)
+Completed 200 OK in 70ms (Views: 65.3ms | ActiveRecord: 0.0ms | Allocations: 13566)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:20:07 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 36.5ms | Allocations: 8267)
+  Rendered layout layouts/application.html.erb (Duration: 90.9ms | Allocations: 10959)
+Completed 200 OK in 105ms (Views: 99.5ms | ActiveRecord: 0.0ms | Allocations: 11818)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:20:23 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 40.0ms | Allocations: 10168)
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 12866)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 0.0ms | Allocations: 13725)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:21:12 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.8ms | Allocations: 9772)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 12470)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 13329)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:21:38 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.9ms | Allocations: 10057)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 12761)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 13621)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:22:42 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.6ms | Allocations: 10113)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 12811)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 13670)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:23:46 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.5ms | Allocations: 10478)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 13187)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 14048)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:24:23 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.9ms | Allocations: 10827)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 13549)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 14413)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:25:24 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.5ms | Allocations: 11178)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 13885)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 14746)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:25:35 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.6ms | Allocations: 11363)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 14065)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 14924)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:25:51 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.3ms | Allocations: 11155)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 13844)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 14703)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:27:00 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 13528)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 16223)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 17082)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:27:27 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 14.1ms | Allocations: 13528)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 16214)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 17073)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:27:56 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.2ms | Allocations: 13708)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 16394)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 17255)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:28:34 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.8ms | Allocations: 14047)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 16768)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 17632)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:28:51 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.0ms | Allocations: 14042)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 16743)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 17604)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:29:03 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.1ms | Allocations: 14044)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 16758)
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 17617)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:30:55 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.8ms | Allocations: 14381)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 17076)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 17935)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:31:15 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 19.2ms | Allocations: 14451)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 17143)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 18002)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:31:41 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.1ms | Allocations: 14451)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 17149)
+Completed 200 OK in 27ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 18008)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:31:54 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 17.1ms | Allocations: 12900)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 15616)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 16477)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:32:03 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 25.0ms | Allocations: 14457)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 17171)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms | Allocations: 18035)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:32:18 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.4ms | Allocations: 14646)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 17350)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 18209)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:32:36 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 20.1ms | Allocations: 15944)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 16033)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 16874)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+        h1#title Goblin Slayer
+        img#goblinslayer border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1"
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1#title Berserk
+        img#goblinslayer border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1#title Jujutsu Kaisen
+        href="#top" GO TO TOP
+        img#goblinslayer border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:      body
+8:        header
+9:          center
+10:            h1#top.title-page My Favorite Anime 
+11:      main 
+12:        div
+13:          center
+14:            h1#title Goblin Slayer
+15:            img#goblinslayer border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1"
+16:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+17:          br
+18:          br
+19:          center
+20:            h1#title Berserk
+21:            img#goblinslayer border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+22:    
+23:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+24:          br
+25:          br
+26:          center
+27:            h1#title Jujutsu Kaisen
+28:            href="#top" GO TO TOP
+29:            img#goblinslayer border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+30:    
+31:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+app/views/jjk/index.html.slim:28: syntax error, unexpected constant, expecting ')'
+app/views/jjk/index.html.slim:28: syntax error, unexpected constant, expecting ')'
+app/views/jjk/index.html.slim:28: syntax error, unexpected constant, expecting ')'
+app/views/jjk/index.html.slim:28: syntax error, unexpected constant, expecting ')'
+Started GET "/" for ::1 at 2023-10-04 16:32:43 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.4ms | Allocations: 14458)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 17195)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 18054)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:32:52 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.7ms | Allocations: 14309)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 17016)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 17875)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:33:01 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.9ms | Allocations: 14450)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 17142)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 18001)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:33:43 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.3ms | Allocations: 14453)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 17154)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 18013)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:33:54 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.8ms | Allocations: 14451)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 17158)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 18017)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:34:03 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 18.2ms | Allocations: 14314)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 17023)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 17884)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:34:14 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.0ms | Allocations: 14457)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 17159)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 18021)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:34:24 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.3ms | Allocations: 14862)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 17557)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 18416)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:34:46 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.4ms | Allocations: 14658)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 17365)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 18224)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:34:58 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 14658)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 17356)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 18215)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:35:05 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.5ms | Allocations: 14660)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 17373)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 18234)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:35:09 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2433)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2698)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:35:32 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.1ms | Allocations: 14477)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 17179)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 18042)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:35:58 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.6ms | Allocations: 14487)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 17174)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 18035)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:36:12 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.2ms | Allocations: 14670)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 17365)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 18224)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:41:10 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 14.1ms | Allocations: 14670)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 17362)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 18221)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:41:56 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.5ms | Allocations: 14670)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 17374)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 18233)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:44:48 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 20.2ms | Allocations: 14674)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 17408)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms | Allocations: 18269)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:46:27 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 15146)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 15412)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:47:11 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.6ms | Allocations: 15410)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 18103)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 18964)
+
+
+Started GET "/" for ::1 at 2023-10-04 16:53:17 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.6ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 38.0ms | Allocations: 14999)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 15263)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:00:52 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.2ms | Allocations: 25172)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 28310)
+Completed 200 OK in 26ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 32284)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:00:53 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 858)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1126)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:02:06 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.3ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 856)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1123)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:02:46 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.9ms | Allocations: 25172)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 28307)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 32281)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:04:28 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.6ms | Allocations: 25775)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 28922)
+Completed 200 OK in 27ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 32896)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:08:22 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 15.9ms | Allocations: 16024)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 17148)
+Completed 200 OK in 27ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 18011)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:09:33 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 23.8ms | Allocations: 16457)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 17590)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.0ms | Allocations: 18453)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:09:48 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 24.2ms | Allocations: 16025)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 17146)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 18009)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:11:40 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.2ms | Allocations: 25775)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 28913)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 32888)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:12:29 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 34.1ms | Allocations: 16457)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 17578)
+Completed 200 OK in 47ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 18441)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:12:39 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 21.4ms | Allocations: 16022)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 17154)
+Completed 200 OK in 39ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 18014)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/styles.css"):
+  
+Started GET "/" for ::1 at 2023-10-04 17:13:54 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.3ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 850)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 1119)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:14:13 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.6ms | Allocations: 25775)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 28919)
+Completed 200 OK in 26ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 32893)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:14:17 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 858)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1126)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:15:33 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.3ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 864)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 1128)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:15:58 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.4ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 852)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 1116)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:17:42 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 13.8ms | Allocations: 16037)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 17161)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 18025)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:17:50 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 837)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1101)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:18:03 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.0ms | Allocations: 25807)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 28948)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 32922)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:18:06 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 858)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1126)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:19:08 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 21.2ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 18637)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.0ms | Allocations: 19501)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:19:30 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.3ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 2349)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 2616)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:20:03 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 12.4ms | Allocations: 16033)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 18639)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 19500)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:20:23 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 1.3ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2327)
+Completed 200 OK in 20ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 2591)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:20:36 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.7ms | Allocations: 25807)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 28948)
+Completed 200 OK in 24ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 32922)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:21:14 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.3ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 17157)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 18021)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:21:31 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2328)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2593)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:22:28 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 23.1ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 17139)
+Completed 200 OK in 45ms (Views: 38.3ms | ActiveRecord: 0.0ms | Allocations: 17997)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:22:36 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 868)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1135)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:22:48 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.4ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 17146)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 18007)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:22:51 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 840)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1104)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:22:57 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 852)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1115)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:23:08 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.2ms | Allocations: 25807)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 28939)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 32913)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:23:12 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 840)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1108)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:23:44 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 15.8ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 17158)
+Completed 200 OK in 37ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 18022)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:24:00 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.9ms | Allocations: 25807)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 28948)
+Completed 200 OK in 27ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 32922)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:24:29 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2324)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2594)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:24:41 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.8ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 17158)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 18022)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:24:53 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 13.0ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 17143)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 18005)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:25:34 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 12.5ms | Allocations: 16034)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 17154)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 18013)
+
+
+Started GET "/" for ::1 at 2023-10-04 17:26:21 -0700
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 858)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 1124)
+
+
