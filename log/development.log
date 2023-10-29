@@ -2553,3 +2553,21 @@ Processing by JjkController#index as HTML
 Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 25169)
 
 
+Started GET "/" for ::1 at 2023-10-29 04:34:38 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.2ms | Allocations: 31615)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 34490)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 41461)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 04:35:20 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 706)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 975)
+
+
