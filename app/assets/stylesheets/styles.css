@@ -1,3 +1,5 @@
+*= require bootstrap
+
 .flipped {
   transform: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/08/Jujutsu-Kaisen.jpg") /* Flip horizontally */
   /* Add any other styling for the flipped image */
@@ -5,8 +7,7 @@
 
 html {
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  /* font-weight: bold; */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   color: #f6f6f6;
   overflow-x: hidden; /* Hide horizontal overflow */

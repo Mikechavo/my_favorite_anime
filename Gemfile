@@ -82,3 +82,5 @@ gem 'haml2slim', '~> 0.4.7'
 gem 'jquery-rails', '~> 4.4'
 
 gem 'slim'
+
+gem 'bootstrap', '~> 4.0.0'
