@@ -1,0 +1,46 @@
+.large-container {
+  margin: 0px 10px 0px 10px;
+  & #main {
+    background-image: none;
+  }
+  & #report-title {
+    border-bottom: 2.2px inset #296898;
+    width: 97%;
+    margin-left: 1%;
+    margin-top: 10px;
+
+    color: #00527a;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 3px 0 0 10px;
+    text-transform: uppercase;
+    & #client-site a {
+      text-transform: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+}
+
+#report-summary {
+  margin-top: 5px;
+  margin-left: 1%;
+  text-align: left;
+
+  color: #00527a;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#client-header {
+  & #client-name {
+    float: none;
+  }
+}
+
+.container.overflow {
+  width: auto;
+  & #report-title{
+    float: none;
+  }
+}

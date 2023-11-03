@@ -1,0 +1,167 @@
+@import 'mixins';
+
+// old styling - need to remove once all pages use unified toolbar
+#down-sites {
+  border-radius: 5px;
+  background: #EA504D;
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  padding: 4px;
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+// end old styling
+
+
+#unified-toolbar, .tab-bar {
+  // different env coloring
+  background-color: $primary;
+  &.development { background-color: $tertiary }
+  &.staging { background-color: $danger }
+  &.sandbox { background-color: $success }
+
+  display: flex;
+  height: $top-bar-height;
+  z-index: 100;
+  .logo-container {
+    border-radius: $radius-general;
+    img {
+      height: 100%;
+    }
+  }
+  a, .main-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+    height: ($top-bar-height - ($padding-general * 2));
+    padding: $padding-general;
+    font-size: $font-header;
+
+    @media screen and (max-width: 700px) {
+      padding-left: $padding-large;
+      padding-right: $padding-large;
+    }
+
+    i {
+      font-size: $font-header-icon;
+    }
+  }
+
+  .main-tab {
+    border-top-left-radius: $radius-general;
+    border-top-right-radius: $radius-general;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    display: none;
+    background: none;
+    a, div, .toolbar-divider {
+      color: $white;
+      background-color: $primary-light;
+      padding: $padding-small $padding-general;
+      font-size: $font-header;
+      height: auto;
+    }
+    .toolbar-divider {
+      .toolbar-divider-content {
+        height: 1px;
+        padding: 0;
+        background-color: $white;
+      }
+    }
+
+    &.right-aligned {
+      right: 0px
+    }
+  }
+
+  .dropdown-menu {
+    a, div {
+      &:first-child {
+        border-top-right-radius: $radius-general;
+      }
+
+      &:last-child {
+        border-bottom-left-radius: $radius-general;
+        border-bottom-right-radius: $radius-general;
+      }
+    }
+    &.right-aligned {
+      a, div {
+        &:first-child {
+          border-top-left-radius: $radius-general;
+          border-top-right-radius: 0px;
+        }
+      }
+    }
+  }
+
+  .shrink-column {
+    &:hover, &.selected {
+      a, .main-tab {
+        background-color: $primary-light;
+      }
+      .dropdown-menu {
+        display: block;
+        a:hover {
+          background-color: $secondary;
+          color: black;
+        }
+      }
+    }
+  }
+
+  .shrink-column.down-sites-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: $radius-general;
+
+    &:hover {
+      background-color: $primary-light;
+    }
+    #down-sites {
+      background: none;
+      color: $white;
+      display: inline-block;
+      float: none;
+      margin: 0;
+      padding: 0;
+
+      a {
+        display: inline-block;
+        height: auto;
+        border-radius: $radius-general;
+        background-color: $danger;
+        color: $white;
+        text-decoration: none;
+        font-size: $general-font;
+
+        i {
+          font-size: $general-font;
+        }
+      }
+
+      &:hover {
+        background-color: $primary-light;
+      }
+    }
+  }
+}
+
+.tab-bar {
+  .main-tab {
+    font-size: $font-header-large;
+    i {
+      font-size: $font-header-large;
+    }
+  }
+}

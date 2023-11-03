@@ -1,0 +1,9 @@
+#search-accounts {
+  width: auto;
+  & > thead > td { white-space: nowrap; }
+  & > tbody > td { white-space: nowrap; }
+}
+
+#search-sites {
+  & .tooltip { left: auto; }
+}

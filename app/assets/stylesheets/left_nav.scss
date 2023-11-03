@@ -1,0 +1,39 @@
+nav#left-navigation div.leftnav {
+  & a {
+    background-color: #f9f9f9;
+    border-left: solid thin #e0eeee;
+    border-bottom: solid thin #e0eeee;
+    border-radius: 3px;
+    height: 15px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 104px;
+    &:hover { background: #f5fffa; }
+    color: #727272;
+    display: block;
+    float: left;
+    font: 500 12px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    &:hover { color: #005078; }
+  }
+
+  &.disabled-nav a {
+    color: darkgray;
+  }
+
+  &.smart-banners:hover a {
+    background-color: #fff;
+    border-bottom: thin solid #9fe67a;
+    border-left: thin solid #9fe67a;
+    color: #0ea0db;
+  }
+
+  &.current-nav a {
+    color: #ff9200;
+    font: bold 12px Arial;
+    text-decoration: none;
+  }
+}
+

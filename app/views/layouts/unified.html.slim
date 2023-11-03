@@ -1,0 +1,75 @@
+doctype html
+html#unified-html lang='en'
+  head
+    meta charset='utf-8'
+    meta http-equiv="Pragma" content="no-cache"
+    meta http-equiv="Cache-Control" content="no-cache, no-store"
+    meta http-equiv="EXPIRES" CONTENT="-1"
+    link rel="shortcut icon" href="/favicon.ico"
+    = csrf_meta_tags
+    = stylesheet_link_tag 'application'
+    javascript:
+      var CKEDITOR_BASEPATH = '/assets/ckeditor/'
+    script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"
+    = javascript_include_tag 'application'
+  body#unified-body *{ data: { controller: controller_name, action: action_name } }
+    = render partial: 'layouts/unified_modal'
+    #unified-header
+      - if @header.present?
+        = render partial: @header
+      - else
+        = render partial: 'layouts/unified_header'
+    - if @page_description.present?
+      #unified-page-description= @page_description
+    - if @stale_data
+      = render partial: 'layouts/stale_data'
+    #unified-main-container class=(@hide_gradient ? '' : 'gradient-bg')
+      #unified-main
+        #gutter-container
+          - if @left_gutter.present? || @top_left_gutter.present? || @bot_left_gutter.present?
+            #gutter-left
+              .gutter-shut-off
+              // left gutter will override top left gutter
+              - if @left_gutter.present?
+                #top-left
+                  .gutter-content= render partial: @left_gutter
+              - elsif @top_left_gutter.present?
+                #top-left
+                  .gutter-content= render partial: @top_left_gutter
+              - if @bot_left_gutter.present?
+                #bot-left
+                  .gutter-content= render partial: @bot_left_gutter
+          #gutter-main
+            // TODO: Restyle flashes?
+            - flash.each do |key, message|
+              div class="flash #{key}-color"
+                .color-text= message
+            = yield
+          - if @top_right_gutter.present? || @bot_right_gutter.present?
+            #gutter-right
+              .gutter-shut-off
+              - if @top_right_gutter.present?
+                #top-right
+                  .gutter-content= render partial: @top_right_gutter
+              - if @bot_right_gutter.present?
+                #bot-right
+                  .gutter-content= render partial: @bot_right_gutter
+      #unified-footer
+        .fa-regular.fa-copyright
+        = "2023-#{Time.now.year} Mike's Favorite Anime"
+    / // ionicon scripts
+    / script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    / script nomodule=true src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+
+    javascript:
+      // ugly hack to get bottom gutter menu to position properly
+      // TODO: overhaul right gutter to do in pure css
+      let itemHeight = 32
+
+      let botRight = $('#bot-right')
+      let rightItemsCount = botRight.find('.gutter-item').length
+      botRight.css('top', 'calc(100% - ' + (rightItemsCount * itemHeight) + 'px)')
+
+      let botLeft = $('#bot-left')
+      let leftItemsCount = botLeft.find('.gutter-item').length
+      botLeft.css('top', 'calc(100% - ' + (leftItemsCount * itemHeight) + 'px)')

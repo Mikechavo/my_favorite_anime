@@ -1,0 +1,70 @@
+.main-content h1 {
+	color: #003399;
+	font-size: 1.5em;
+	border-bottom: 1px solid #CCC;
+	margin: 0px 10px 0px 0px;
+}
+
+form table input[type=text].form-number {
+	width: 4em;
+	height: 2em;
+	padding: 2px;
+	margin: 0px;
+	font: normal normal normal 1.5em Arial, sans-serif;
+	text-align: center;
+}
+
+form table input[type=text].form-tiny-number {
+	width: 2em;
+	height: 2em;
+	padding: 2px;
+	margin: 0px;
+	font: normal normal normal 1.5em Arial, sans-serif;
+	text-align: center;
+}
+
+form table textarea {
+	width: 30em;
+	height: 10em;
+	padding: 3px;
+	margin: 0px;
+}
+
+input.error {
+	border: 2px solid red;
+}
+
+label.error {
+	display: block;
+	color: red;
+	font-style: italic;
+	font-weight: normal;
+}
+
+label.valid {
+		background: url('http://dev.jquery.com/view/trunk/plugins/validate/demo/images/checked.gif') no-repeat;
+		display: block;
+		width: 16px;
+		height: 16px;
+	}
+
+td.align-top {
+	vertical-align: top;
+}
+
+
+
+td.checkbox {
+	float: left;
+}
+
+table {
+  &#gallery {
+    td {
+      &.label {
+        font-size: 10pt;
+        width: 150px;
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+@import "mixins";
+
+$page-padding: 20px;
+#pdf-container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  .header-section {
+    padding: 24px;
+  }
+  .line-items-section {
+    padding: 24px;
+    padding-top: 0;
+  }
+  .payment-info-section {
+    padding: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #products-and-services {
+    padding: 24px;
+  }
+  .footer-section {
+    padding: 24px;
+    padding-top: 0;
+  }
+
+  .header-logo img {
+    height: 56px;
+    padding: 10px 0;
+  }
+  .primary-header {
+    color: $primary;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .secondary-header, .footer-link {
+    color: $primary;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .header-sub-text {
+    font-size: 24px;
+  }
+
+  .footer-link {
+    color: $secondary;
+    text-decoration: none;
+  }
+
+  .page-break {
+    display:block;
+    clear:both;
+    page-break-after:always;
+  }
+
+  .horizontal-grid {
+    display: -webkit-box;
+    padding-top: 20px;
+    &.no-pad {
+      padding: 0;
+    }
+  }
+  .vertical-grid {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+  .stretch-column {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1;
+  }
+  .shrink-column {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+  }
+
+  table {
+    text-align: left;
+    tbody.header tr th {
+      background-color: $primary;
+      color: white;
+    }
+  }
+
+  #credit-card-entry {
+    border: 2px solid black;
+    td {
+      border: 2px solid black;
+      height: 50px;
+      vertical-align: top;
+    }
+  }
+
+  #wire-info {
+    border: 2px solid black;
+    td {
+      border: 2px solid black;
+      vertical-align: top;
+    }
+    table {
+      border: none;
+      tr {
+        background-color: transparent;
+        td {
+          padding: 0;
+          border: none;
+          &.padding {
+            padding-top: 10px
+          }
+        }
+      }
+    }
+  }
+
+  p, tr, .signature-container, .header-sub-text, .footer-section, .verbiage-section {
+    page-break-inside: avoid;
+  }
+
+  .header-sub-text {
+    .text-right {
+      padding-right: 10px;
+    }
+
+  }
+  .text-right {
+    text-align: right;
+  }
+
+  #products-and-services {
+    background-image: asset-data-url('invoice_background.png');
+    color: white;
+    .secondary-header, .header-sub-text {
+      color: $secondary
+    }
+  }
+
+  .footer-logo img {
+    height: 60px;
+  }
+
+  .docusign-anchor {
+    color: transparent;
+  }
+}

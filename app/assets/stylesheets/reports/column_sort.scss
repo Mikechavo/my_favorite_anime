@@ -1,0 +1,7 @@
+.sort-row {
+  &:hover { cursor: pointer; }
+  & td:hover { background-color: #fef5ca }
+  & .skip-sort {
+    &:hover { cursor: default; }
+  }
+}

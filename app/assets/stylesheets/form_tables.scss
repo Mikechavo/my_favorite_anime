@@ -1,0 +1,35 @@
+.form-table {
+  font-size: 100%;
+  text-align: left;
+  & input {
+    width: auto;
+    &[type='text']{
+      width: 160px;
+      padding: 1px;
+    }
+    &[type='number']{
+      width: 50px;
+      padding: 1px;
+    }
+  }
+}
+
+.form-table-small {
+  & input {
+    width: auto;
+    &[type='text']{
+      width: 80px;
+      padding: 1px;
+    }
+    &[type='number']{
+      width: 50px;
+      padding: 1px;
+    }
+  }
+}
+
+.form-table, .form-table-small {
+  & td {
+    padding: 0;
+  }
+}

@@ -276,6 +276,7 @@ DEPENDENCIES
   jquery-rails (~> 4.4)
   puma (~> 5.0)
   rails (~> 7.0.8)
+  rake (= 13.0.6)
   selenium-webdriver
   slim
   slim-rails

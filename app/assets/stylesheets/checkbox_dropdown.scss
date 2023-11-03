@@ -1,0 +1,35 @@
+.checkbox-dropdown {
+  position: relative;
+  & div a {
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 2px 5px 2px 5px;
+    display: block;
+    overflow: hidden;
+  }
+  & .dropdown-options {
+    position: relative;
+    & ul {
+      background-color: white;
+      border: 1px solid rgb(196, 196, 196);
+      display: none;
+      position: absolute;
+      top: -1px;
+      list-style: none;
+      overflow: auto;
+      z-index: 1;
+      & li a {
+        padding: 5px;
+        display: block;
+      }
+    }
+  }
+  & td {
+    white-space: nowrap;
+  }
+}
+
+.checkbox-dropdown div a span,
+.replacement-label span {
+  display: inline-block;
+}

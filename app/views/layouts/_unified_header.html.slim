@@ -1,0 +1,9 @@
+.shrink-column.title-container
+  - if @header_text.present?
+    a href=@header_url
+      - if @header_icon.present?
+        i class="fa-solid fa-#{@header_icon}"
+      span=< @header_text
+.stretch-column
+.shrink-column.search-container
+

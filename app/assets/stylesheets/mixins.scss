@@ -1,0 +1,76 @@
+$primary: #133E69; // dark blue
+$primary-light: #28A4E4; // light blue
+$primary-light-dark: #11648e;
+$primary-light-muted: #e8edff;
+$secondary: #DEE428; // yellow
+$secondary-dark: #ABB100;
+$secondary-light: #e9ed71;
+$tertiary: #8250df; // purple
+$tertiary-light: #ece5fa;
+$tertiary-dark: #481c99;
+$white: #FFFFFF;
+$inactive: #edebeb;
+$grey-dark: #666;
+$grey-light: #c6c6c6;
+$border-grey-light: #c6c6c6;
+$danger: #cf222e; // red
+$danger-light: #FFD7D5;
+$success: #2da44e;
+$success-light: #a3e5b6;
+$loading: #e8edff;
+$notify-dark: rgba(140, 101, 5, 1);
+$notify-light: #f8ece4;
+$text-dark: #666;
+
+// ===================
+// Custom Modal Mixins
+// -------------------
+$modal-light: rgba(255, 255, 255, 0.96);
+$modal-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.4);
+
+
+$top-bar-height: 42px;
+$font-header: 18px;
+$font-header-large: 24px;
+$font-header-icon: 30px;
+$font-gutter-icon: 24px;
+$font-general: 16px;
+$general-font: 16px;
+
+$size-gutter-collapsed: 44px;
+$size-gutter-visible: 252px;
+
+$padding-general: 8px;
+$padding-general-large: 16px;
+$padding-general-half: 4px;
+$padding-small: 4px;
+$padding-large: 14px;
+$padding-panel: 16px;
+$padding-panel-half: 8px;
+
+$height-input: 32px;
+
+$radius-general: 5px;
+
+#mixin-reader {
+  display: none;
+  #color-primary { color: $primary; }
+  #color-primary-light { color: $primary-light; }
+  #color-primary-light-dark { color: $primary-light-dark; }
+  #color-primary-light-muted { color: $primary-light-muted; }
+  #color-secondary { color: $secondary; }
+  #color-secondary-dark { color: $secondary-dark; }
+  #color-secondary-light { color: $secondary-light; }
+  #color-tertiary { color: $tertiary; }
+  #color-tertiary-light { color: $tertiary-light; }
+  #color-tertiary-dark { color: $tertiary-dark; }
+  #color-white { color: $white; }
+  #color-inactive { color: $inactive; }
+  #color-grey-dark { color: $grey-dark; }
+  #color-border-grey-light { color: $border-grey-light; }
+  #color-danger { color: $danger; }
+  #color-danger-light { color: $danger-light; }
+  #color-success { color: $success; }
+  #color-success-light { color: $success-light; }
+  #color-loading { color: $loading; }
+}

@@ -1,0 +1,50 @@
+// #############################################################################
+// ## TOGGLE SWITCH ##
+// ###################
+
+.switch {
+  position: relative;
+  display:  inline-block;
+  width:    30px;
+  height:   15px;
+}
+.switch input {
+  opacity: 0;
+  width:   0;
+  height:  0;
+}
+.switch .slider {
+  position:         absolute;
+  cursor:           pointer;
+  top:              0;
+  left:             0;
+  right:            0;
+  bottom:           0;
+  background-color: #ccc;
+  transition:       .4s;
+  border-radius:    15px;
+}
+.switch .slider:hover {
+  background-color: #bbb;
+}
+.switch .slider.active:hover {
+  background-color: #009900;
+}
+.switch .slider:before {
+  position:         absolute;
+  content:          "";
+  height:           12px;
+  width:            12px;
+  left:             1.5px;
+  bottom:           1.5px;
+  background-color: #f0f2f5;
+  transition:       .4s;
+  border-radius:    50%;
+}
+.switch .slider-before.active,
+.switch .slider.active:before {
+  transform: translateX(15px);
+}
+.switch .slider.active {
+  background-color: green;
+}

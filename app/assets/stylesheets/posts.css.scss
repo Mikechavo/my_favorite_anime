@@ -1,0 +1,25 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+form.blog_post ul li {
+  margin: 10px 0 10px 0;
+}
+#create_multiple_posts_form {
+  padding: 10px 0 10px 0;
+
+  input[type='number'] {
+    height: 15px;
+    width: 50px;
+  }
+  input[type='text'] {
+    height: 15px;
+    width: 6em;
+  }
+  table {
+    td {
+      border-bottom: none;
+      vertical-align: middle;
+
+    }
+  }
+}

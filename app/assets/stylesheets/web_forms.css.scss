@@ -1,0 +1,157 @@
+
+
+div {
+  &.contact-form-summary-container {
+    div {
+      float: left;
+      width: 44%;
+      &.right {
+        width: 52%;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+
+input.error {
+  border: 2px solid red;
+}
+
+
+form {
+  &.web-form {
+    input[type="text"] {
+      line-height: 17px;
+      margin: 0;
+      padding: 5px;
+      width: 43%;
+    }
+
+    textarea {
+      height: 120px;
+      margin: 0px;
+      padding: 3px;
+      width: 43.5%;
+    }
+  }
+}
+
+
+
+
+
+
+
+table {
+  &#web-form-form {
+
+    label {
+      display: block;
+
+      &.error {
+        color: red;
+        font-style: italic;
+        font-weight: normal;
+      }
+      &.valid {
+        background: url('http://dev.jquery.com/view/trunk/plugins/validate/demo/images/checked.gif') no-repeat;
+        height: 16px;
+        width: 16px;
+      }
+    }
+
+
+    td {
+      &.checkbox { float: left; }
+      &.field {
+        width: 80%;
+        span.field-caption { font-size: .88em; }
+        span.label {
+          font-size: 1.14em;
+          white-space: nowrap;
+          width: 13%;
+        }
+        span.multiselect {
+          display: inline-block;
+          width: 20%;
+          select {
+            width: 100%;
+          }
+        }
+        span.multiselect-controls {
+          display: inline-block;
+          width: 3.5%;
+          vertical-align: top;
+          padding-top: 6%;
+          button {
+            width: 100%;
+          }
+        }
+      }
+      &.label {
+        font-size: 1.14em;
+        white-space: nowrap;
+        width: 13%;
+      }
+    }
+  }
+
+  &.web-form-details {
+    td, th {
+      white-space: nowrap;
+
+      &.alias { font-size: .97em; }
+      &.attribute-label { text-align: right; }
+      &.attribute-value {
+        font-size: .92em;
+        text-align: center;
+      }
+      &.auto-responder {
+        font-family: "Lucida Console","Monaco";
+        font-size: .92em;
+        padding: 4px 8px;
+        text-align: center;
+      }
+      &.auto-responder-header {
+        a { font-size: .96em; }
+      }
+
+      &.comma-separated { font-size: .91em; }
+      &.domain { color: #27408b; }
+      &.email  { color: #27408b; }
+      &.mathcaptcha {
+        color: #4b0082;
+        font-family: "Courier", "Courier New", sans-serif;
+        vertical-align: middle;
+      }
+      &.recaptcha {
+        color: #3482e6;
+        font: 900 .95em/.99em "Open Sans", sans-serif;
+        vertical-align: middle;
+      }
+      &.invisible {
+        color: #583494;
+        font: 900 .95em/.99em "Open Sans", sans-serif;
+        vertical-align: middle;
+      }
+      &.send-cc { white-space: normal; }
+      &.subject {
+        font-size: .95em;
+        font-weight: bold;
+      }
+      &.support-link-container { text-align: right; }
+      &.url {
+        a { font-size: .96em; }
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+td {
+  &.textarea-label {
+    vertical-align: top;
+  }
+}

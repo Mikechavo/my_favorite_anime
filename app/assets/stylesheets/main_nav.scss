@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+#main-nav {
+  i {
+    &.fa-home { color: orange; }//#FFCA57; }
+    &.fa-briefcase { color: lightblue; }//lightblue; }
+    &.fa-folder-open { color: yellow; }//#f1edc2; }
+    &.fa-credit-card { color: gold; }
+    &.fa-gears { color: lightgray; }
+    &.fa-chart-pie { color: lightgreen; }//#ACFCBB; }
+    &.fa-users { color: lighten(red, 25%); }
+  }
+  overflow: hidden;
+  width: 100%;
+  background-color: #666;
+  margin-bottom: 10px;
+  // MAIN NAV
+  & ul {
+    list-style-type: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    & li {
+      &.user-options {
+        float: right;
+        ul {
+          margin-right: 0;
+        }
+      }
+      float: left;
+      & a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        font-size: 150%;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        & span { margin-right: 14px; }
+        & i { margin-right: 6px; }
+      }
+      & .dropdown {
+        margin-right: 0px;
+        margin-left: 3px;
+      }
+      &:hover {
+        background-color: #9c9c9c;
+      }
+      // DROPDOWNS
+      &:hover ul {
+        visibility: visible;
+      }
+      & ul {
+        margin-left: 0px;
+        z-index: 200;
+        visibility: hidden;
+        position: absolute;
+        background-color: #F0F0F0;
+        & li {
+          float: none;
+          &.menu-link:hover {
+            background-color: #0087bf;
+            & a {
+              color: white;
+            }
+          }
+        }
+        & a {
+          color: #757575;
+          text-align: left;
+          padding-left: 7px;
+          font-size: 100%;
+          font-family: 'Helvetica Neue', Arial,Helvetica, Verdana, sans-serif;
+          text-transform: none;
+          margin-right: 0px;
+          &:hover {
+            background-color: #0087bf;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+// description boxes any div currently only used in links
+.menu-link div {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  margin-left: 50px;
+  background-color: #f1edc2;
+  border: 1px solid gray;
+  text-align: left;
+  padding: 4px
+}
+.menu-link:hover div {
+  transition-delay: 1s;
+  visibility: visible;
+}

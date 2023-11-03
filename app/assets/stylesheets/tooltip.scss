@@ -1,0 +1,447 @@
+@import "mixins";
+// SIMPLE TOOLTIPS
+//[tooltip] {
+//  position: relative; /* opinion 1 */
+//}
+//
+///* Applies to all tooltips */
+//[tooltip]::before,
+//[tooltip]::after {
+//  text-transform: none; /* opinion 2 */
+//  font-size: .9em; /* opinion 3 */
+//  line-height: 1;
+//  user-select: none;
+//  pointer-events: none;
+//  position: absolute;
+//  display: none;
+//  opacity: 0;
+//}
+//[tooltip]::before {
+//  content: '';
+//  border: 5px solid transparent; /* opinion 4 */
+//  z-index: 1001; /* absurdity 1 */
+//}
+//[tooltip]::after {
+//  content: attr(tooltip); /* magic! */
+//
+//  /* most of the rest of this is opinion */
+//  font-family: Helvetica, sans-serif;
+//  text-align: center;
+//
+//  /*
+//    Let the content set the size of the tooltips
+//    but this will also keep them from being obnoxious
+//    */
+//  //min-width: 3em;
+//  //max-width: 21em;
+//  overflow: hidden;
+//  text-overflow: ellipsis;
+//  padding: 1ch 1.5ch;
+//  border-radius: .3ch;
+//  box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+//  background: #333;
+//  color: #fff;
+//  z-index: 1000; /* absurdity 2 */
+//}
+//
+///* Make the tooltips respond to hover */
+//[tooltip]:hover::before,
+//[tooltip]:hover::after {
+//  display: block;
+//}
+//
+///* don't show empty tooltips */
+//[tooltip='']::before,
+//[tooltip='']::after {
+//  display: none !important;
+//}
+//
+///* FLOW: UP */
+//[tooltip]:not([flow])::before,
+//[tooltip][flow^="up"]::before {
+//  bottom: 100%;
+//  border-bottom-width: 0;
+//  border-top-color: #333;
+//}
+//[tooltip]:not([flow])::after,
+//[tooltip][flow^="up"]::after {
+//  bottom: calc(100% + 5px);
+//}
+//[tooltip]:not([flow])::before,
+//[tooltip]:not([flow])::after,
+//[tooltip][flow^="up"]::before,
+//[tooltip][flow^="up"]::after {
+//  left: 50%;
+//  transform: translate(-50%, -.5em);
+//}
+//
+///* FLOW: DOWN */
+//[tooltip][flow^="down"]::before {
+//  top: 100%;
+//  border-top-width: 0;
+//  border-bottom-color: #333;
+//}
+//[tooltip][flow^="down"]::after {
+//  top: calc(100% + 5px);
+//}
+//[tooltip][flow^="down"]::before,
+//[tooltip][flow^="down"]::after {
+//  left: 50%;
+//  transform: translate(-50%, .5em);
+//}
+//
+///* FLOW: LEFT */
+//[tooltip][flow^="left"]::before {
+//  top: 50%;
+//  border-right-width: 0;
+//  border-left-color: #333;
+//  left: calc(0em - 5px);
+//  transform: translate(-.5em, -50%);
+//}
+//[tooltip][flow^="left"]::after {
+//  top: 50%;
+//  right: calc(100% + 5px);
+//  transform: translate(-.5em, -50%);
+//}
+//
+///* FLOW: RIGHT */
+//[tooltip][flow^="right"]::before {
+//  top: 50%;
+//  border-left-width: 0;
+//  border-right-color: #333;
+//  right: calc(0em - 5px);
+//  transform: translate(.5em, -50%);
+//}
+//[tooltip][flow^="right"]::after {
+//  top: 50%;
+//  left: calc(100% + 5px);
+//  transform: translate(.5em, -50%);
+//}
+//
+///* KEYFRAMES */
+//@keyframes tooltips-vert {
+//  to {
+//    opacity: .9;
+//    transform: translate(-50%, 0);
+//  }
+//}
+//
+//@keyframes tooltips-horz {
+//  to {
+//    opacity: .9;
+//    transform: translate(0, -50%);
+//  }
+//}
+//
+///* FX All The Things */
+//[tooltip]:not([flow]):hover::before,
+//[tooltip]:not([flow]):hover::after,
+//[tooltip][flow^="up"]:hover::before,
+//[tooltip][flow^="up"]:hover::after,
+//[tooltip][flow^="down"]:hover::before,
+//[tooltip][flow^="down"]:hover::after {
+//  animation: tooltips-vert 300ms ease-out forwards;
+//}
+//
+//[tooltip][flow^="left"]:hover::before,
+//[tooltip][flow^="left"]:hover::after,
+//[tooltip][flow^="right"]:hover::before,
+//[tooltip][flow^="right"]:hover::after {
+//  animation: tooltips-horz 300ms ease-out forwards;
+//}
+
+
+
+// HTML TOOLTIPS
+.tooltip-wrapper {
+  position: relative;
+
+  .tooltip-content {
+    position: absolute;
+    z-index: 1;
+
+    font-size: $general-font;
+    background-color: $primary-light;
+    bottom: 100%;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    opacity: 0;
+    padding: $padding-general;
+    border-radius: $radius-general;
+    pointer-events: none;
+    max-width: 300px;
+    width: max-content;
+    word-break: break-word;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+
+    ///* This bridges the gap so you can mouse into the tooltip without it disappearing */
+    //&:before {
+    //  bottom: -20px;
+    //  content: " ";
+    //  display: block;
+    //  height: 20px;
+    //  left: 0;
+    //  position: absolute;
+    //  width: 100%;
+    //}
+
+    /* CSS Triangles */
+    &:after {
+      border-left: solid transparent 10px;
+      border-right: solid transparent 10px;
+      border-top: solid $primary-light 10px;
+      bottom: -10px;
+      content: " ";
+      height: 0;
+      position: absolute;
+      width: 0;
+    }
+
+    // positioning, standard is top left
+    left: -20px;
+    &:after {
+      left: 18px;
+    }
+
+    &.top-left {
+      left: auto;
+      right: -20px;
+      &:after {
+        left: auto;
+        right: 18px;
+      }
+    }
+
+    &.bottom-right {
+      bottom: auto;
+      margin-top: 15px;
+      margin-bottom: auto;
+
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+      transform: translateY(-10px);
+
+      &:after {
+        border-left: solid transparent 10px;
+        border-right: solid transparent 10px;
+        border-top: none;
+        border-bottom: solid $primary-light 10px;
+        top: -10px;
+        content: " ";
+        height: 0;
+        position: absolute;
+        width: 0;
+      }
+      &.tooltip-arrow-alert:after {
+        border-bottom: solid $danger 10px;
+      }
+      &.tooltip-error {
+        background-color: $danger;
+        color: white ;
+        font-weight: bold ;
+      }
+      &.tooltip-healthy {
+        color: white;
+        font-weight: bold ;
+      }
+    }
+
+    &.bottom-left {
+      bottom: auto;
+      margin-top: 15px;
+      margin-bottom: auto;
+
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+      transform: translateY(-10px);
+
+      left: auto;
+      right: -20px;
+      &:after {
+        left: auto;
+        right: 18px;
+      }
+
+      &:after {
+        border-left: solid transparent 10px;
+        border-right: solid transparent 10px;
+        border-top: none;
+        border-bottom: solid $primary-light 10px;
+        top: -10px;
+        content: " ";
+        height: 0;
+        position: absolute;
+        width: 0;
+      }
+    }
+  }
+}
+
+
+.tooltip-wrapper:hover .tooltip-content {
+  opacity: 1;
+  //pointer-events: auto;
+  pointer-events: none;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+/* IE can just show/hide with no transition */
+.lte8 .tooltip-wrapper .tooltip-content {
+  display: none;
+}
+
+.lte8 .tooltip-wrapper:hover .tooltip-content {
+  display: block;
+}
+
+
+
+
+
+
+
+// OLD TOOLTIPS... WILL DELETE
+td.tooltipLink, div.tooltipLink, span.tooltipLink {
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    & > div {
+      display: block;
+      position: absolute;
+      z-index: 20;
+    }
+  }
+
+  & > span.information {
+    border-bottom: 1px dotted gray;
+    z-index:10;
+  }
+
+  & > div {
+    cursor: default;
+    background-color: #9c9c9c;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    display: none;
+    padding: 2px;
+
+    &.tooltip {
+      width: 250px;
+      top: 2.5em;
+
+      & table.tooltip-content {
+        background-color: #e8edff;
+        table-layout: fixed;
+        width: 100%;
+        word-wrap: break-word;
+
+        & td {
+          font-size: 11px;
+          font-weight: normal;
+          padding: 1px;
+          white-space: normal;
+          & span {
+            color: #669;
+            font-size: 11px;
+            font-weight: normal;
+          }
+        }
+
+        & th { font-size: 10px; }
+
+        & tr.row0 {
+          td {
+            background-color: #fffffc;
+            border: 0px solid #ccc;
+            white-space: normal;
+            width: 240px;
+          }
+        }
+
+        & tr.row1 {
+          td {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            white-space: normal;
+          }
+        }
+      }
+    }
+
+    &.recipients_tooltip {
+      width: 135px;
+
+      table {
+        &.recipients_overlay {
+          background-color: #e8edff;
+          table-layout: fixed;
+          white-space: normal;
+          width: auto;
+          word-wrap: break-word;
+
+          td {
+            font-size: 11px;
+            font-weight: normal;
+            padding: 1px;
+          }
+
+          th { font-size: 10px; }
+
+          tr.row0 {
+            td.acl {
+              background-color: #fffffc;
+              border: 0px solid #ccc;
+              width: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+span.tooltipLink {
+  font-size: inherit;
+  &:hover div.tooltip {
+    left: 0px;
+    top: 1px;
+  }
+  & > span { font-size: inherit; }
+}
+
+.core-data div.tooltipLink {
+  &:hover {
+    .tooltip {
+      left: 0;
+    }
+  }
+}
+
+.align-tooltip-default .tooltipLink .tooltip {
+  left: inherit;
+  top: inherit;
+}

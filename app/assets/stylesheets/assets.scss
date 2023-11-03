@@ -1,0 +1,47 @@
+@import 'mixins';
+
+// for js loaded panels
+.panel.assets-panel {
+  .panel-content {
+    .new-asset {
+      padding-top: $padding-general;
+      padding-left: $padding-general;
+      padding-right: $padding-general;
+    }
+    .no-records {
+      padding: $padding-general;
+    }
+    .assets-container {
+      padding-top: 0;
+      padding: 0;
+      .index-row:last-child {
+        padding-bottom: $padding-general;
+      }
+
+      .data-file-name {
+        word-break: break-all;
+      }
+
+      .index-row {
+        .horizontal-grid {
+          padding-left: $padding-general;
+          padding-right: $padding-general;
+        }
+        .horizontal-grid:first-child {
+          border-top: 1px solid lightgrey;
+        }
+
+        &:first-of-type .horizontal-grid {
+          border-top: 0;
+        }
+
+        &.asset-inactive {
+          background-color: lightgrey;
+          .horizontal-grid:first-child {
+            border-top-color: black;
+          }
+        }
+      }
+    }
+  }
+}

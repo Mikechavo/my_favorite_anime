@@ -84,3 +84,5 @@ gem 'jquery-rails', '~> 4.4'
 gem 'slim'
 
 gem 'bootstrap', '~> 4.0.0'
+
+gem 'rake', '13.0.6'

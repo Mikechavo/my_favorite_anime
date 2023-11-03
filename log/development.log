@@ -2571,3 +2571,2571 @@ Processing by JjkController#index as HTML
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 975)
 
 
+Started GET "/" for 127.0.0.1 at 2023-10-29 04:37:59 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 31348)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 34360)
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 38330)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:22:27 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 14.9ms | Allocations: 31355)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 34300)
+Completed 200 OK in 34ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 38272)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:23:04 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.9ms | Allocations: 21628)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 22782)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 23643)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:23:17 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.6ms | Allocations: 21571)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 22692)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 23554)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:25:48 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 36.3ms | Allocations: 21576)
+  Rendered layout layouts/application.html.erb (Duration: 40.5ms | Allocations: 22699)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms | Allocations: 23563)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:26:16 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 21581)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 22701)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 23565)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:27:26 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.6ms | Allocations: 21630)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 22748)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 23607)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:27:59 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 19.4ms | Allocations: 21628)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 22754)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 23613)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:28:22 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 34.4ms | Allocations: 12535)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 12623)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 13484)
+
+
+  
+ActionView::Template::Error (Expected attribute
+  /home/mchavez76/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 16, Column 25
+    h1.title(link_to 'index/show') Goblin Slayer 
+                     ^
+):
+    13:   main 
+    14:     div
+    15:       center
+    16:         h1.title(link_to 'index/show') Goblin Slayer 
+    17:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    18:       h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    19:       br
+  
+app/views/jjk/index.html.slim:16
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:29:33 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 4.7ms | Allocations: 4366)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 4454)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4955)
+
+
+  
+ActionView::Template::Error (Expected attribute
+  /home/mchavez76/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 16, Column 25
+    h1.title(link_to 'index/show') Goblin Slayer 
+                     ^
+):
+    13:   main 
+    14:     div
+    15:       center
+    16:         h1.title(link_to 'index/show') Goblin Slayer 
+    17:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    18:       h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    19:       br
+  
+app/views/jjk/index.html.slim:16
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:29:45 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 2.1ms | Allocations: 4416)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 4504)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 5004)
+
+
+  
+ActionView::Template::Error (Expected attribute
+  /home/mchavez76/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 16, Column 25
+    h1.title(link_to 'index/show') Goblin Slayer 
+                     ^
+):
+    13:   main 
+    14:     div
+    15:       center
+    16:         h1.title(link_to 'index/show') Goblin Slayer 
+    17:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    18:       h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    19:       br
+  
+app/views/jjk/index.html.slim:16
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:30:23 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.1ms | Allocations: 21801)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 24329)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 25198)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:30:35 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.5ms | Allocations: 21849)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 22957)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 23816)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:31:35 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.9ms | Allocations: 21722)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 22842)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 23701)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:36:07 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 16.5ms | Allocations: 21798)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 22926)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 23790)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:36:31 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.8ms | Allocations: 21730)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 22874)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 23735)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:36:48 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.0ms | Allocations: 21722)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 22845)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 23704)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:36:53 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 21722)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 22842)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 23701)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:37:36 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 15.4ms | Allocations: 22998)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 23087)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 23954)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    14:     div
+    15:       center
+    16:         h1.title Goblin Slayer 
+    17:           a.gutter-item.open-modal href="/js_loaders/steps/project_closed?project_id=#{@project.id}"
+    18:              i.fa-solid.fa-cubes
+    19:               span Step History
+    20:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+  
+app/views/jjk/index.html.slim:17
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:37:48 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.2ms | Allocations: 22972)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 23060)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 23896)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    14:     div
+    15:       center
+    16:         h1.title Goblin Slayer 
+    17:           a href="/js_loaders/steps/project_closed?project_id=#{@project.id}"
+    18:              i.fa-solid.fa-cubes
+    19:               span Step History
+    20:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+  
+app/views/jjk/index.html.slim:17
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:38:04 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.1ms | Allocations: 21796)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 22931)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 23790)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:38:14 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.7ms | Allocations: 21788)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 22911)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 23770)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:38:19 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 21788)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 22917)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 23776)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:39:12 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 14.5ms | Allocations: 21645)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 22758)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 23619)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:39:19 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.3ms | Allocations: 21835)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 22958)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 23820)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:39:25 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.1ms | Allocations: 21898)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 23033)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 23892)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:39:37 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.5ms | Allocations: 20086)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 21200)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 22059)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:39:56 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.4ms | Allocations: 21650)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 22763)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 23624)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:40:22 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.7ms | Allocations: 21580)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 22697)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 23559)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:40:36 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.8ms | Allocations: 21572)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 22704)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 23563)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:40:48 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.5ms | Allocations: 21572)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 22695)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 23556)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:40:59 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 10.8ms | Allocations: 21641)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 22759)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 23623)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:41:30 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 11.6ms | Allocations: 21522)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 22645)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 23507)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:41:38 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.8ms | Allocations: 21628)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 22760)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 23619)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-29 16:41:57 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 15.9ms | Allocations: 21576)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 22719)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 23580)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-30 18:02:24 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 58.2ms | Allocations: 31348)
+  Rendered layout layouts/application.html.erb (Duration: 63.6ms | Allocations: 34295)
+Completed 200 OK in 77ms (Views: 67.1ms | ActiveRecord: 0.0ms | Allocations: 38267)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:09:13 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 9.9ms | Allocations: 31348)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 34223)
+Completed 200 OK in 19ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 38193)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:20:44 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 283)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 991)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:21:17 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 6.9ms | Allocations: 21593)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 24088)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 25042)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:24:19 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 4.9ms | Allocations: 16320)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 17388)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 18253)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:24:43 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.1ms | Allocations: 16306)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 17373)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 18232)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:25:01 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 20.1ms | Allocations: 16326)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 17402)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 18263)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:28:44 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 5.0ms | Allocations: 19406)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 20474)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 21343)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:29:00 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 4.1ms | Allocations: 19367)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 20428)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 21287)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:29:48 -0500
+Processing by JjkController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1439)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/unified with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder, :slim]}.
+
+Searched in:
+  * "/home/mchavez76/slim_jquery_rails_practice/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+  
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:30:49 -0500
+Processing by JjkController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1304)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/unified with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder, :slim]}.
+
+Searched in:
+  * "/home/mchavez76/slim_jquery_rails_practice/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+  
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:31:27 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.5ms | Allocations: 19380)
+  Rendered layout layouts/unified.html.slim (Duration: 7.6ms | Allocations: 42804)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 43492)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `tab_title' for #<ActionView::Base:0x00000000017278>):
+     6:     meta http-equiv="Cache-Control" content="no-cache, no-store"
+     7:     meta http-equiv="EXPIRES" CONTENT="-1"
+     8:     link rel="shortcut icon" href="/favicon.ico"
+     9:     title= tab_title
+    10:     = csrf_meta_tags
+    11:     = stylesheet_link_tag 'application'
+    12:     javascript:
+  
+app/views/layouts/unified.html.slim:9
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:32:18 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.2ms | Allocations: 19378)
+  Rendered layouts/_unified_modal.html.slim (Duration: 4.1ms | Allocations: 8657)
+  Rendered layout layouts/unified.html.slim (Duration: 13.9ms | Allocations: 51810)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 52494)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_unified_toolbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder, :slim]}.
+
+Searched in:
+  * "/home/mchavez76/slim_jquery_rails_practice/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    14:     = javascript_include_tag 'application'
+    15:   body#unified-body *{ data: { controller: controller_name, action: action_name } }
+    16:     = render partial: 'layouts/unified_modal'
+    17:     #unified-toolbar class=Rails.env = render partial: 'layouts/unified_toolbar'
+    18:     #unified-header
+    19:       - if @header.present?
+    20:         = render partial: @header
+  
+app/views/layouts/unified.html.slim:17
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:33:28 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 5.2ms | Allocations: 19379)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8635)
+  Rendered layouts/_unified_toolbar.html.slim (Duration: 11.7ms | Allocations: 74615)
+  Rendered layout layouts/unified.html.slim (Duration: 25.2ms | Allocations: 125426)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 126113)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007ff38025e420>::Accounts):
+     8:     div Clients
+     9:     .toolbar-divider
+    10:       .toolbar-divider-content
+    11:     a href='/accounts/exiting'= Accounts::ExitingBuilder::TITLE
+    12:     a href='/accounts/stale'= 'Clients - Services'
+    13:     a href='/reports/sales_rep_clients/all_clients'= Sales::AllClientLineItems::TITLE
+    14:     - if current_user.has_tag?('Sales Admin')
+  
+app/views/layouts/_unified_toolbar.html.slim:11
+app/views/layouts/unified.html.slim:17
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:33:47 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 19378)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8635)
+  Rendered layouts/_unified_toolbar.html.slim (Duration: 12.6ms | Allocations: 72648)
+  Rendered layout layouts/unified.html.slim (Duration: 23.0ms | Allocations: 123455)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 124139)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<ActionView::Base:0x00000000017d18>):
+     9:     .toolbar-divider
+    10:       .toolbar-divider-content
+    11:   Sales::AllClientLineItems::TITLE
+    12:     - if current_user.has_tag?('Sales Admin')
+    13:       a href='/markets' = 'Clients - Markets'
+    14: .shrink-column
+    15:   .main-tab
+  
+app/views/layouts/_unified_toolbar.html.slim:12
+app/views/layouts/unified.html.slim:17
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:34:10 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.5ms | Allocations: 19379)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8635)
+  Rendered layout layouts/unified.html.slim (Duration: 10.5ms | Allocations: 51765)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 52449)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_unified_toolbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder, :slim]}.
+
+Searched in:
+  * "/home/mchavez76/slim_jquery_rails_practice/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    14:     = javascript_include_tag 'application'
+    15:   body#unified-body *{ data: { controller: controller_name, action: action_name } }
+    16:     = render partial: 'layouts/unified_modal'
+    17:     #unified-toolbar class=Rails.env = render partial: 'layouts/unified_toolbar'
+    18:     #unified-header
+    19:       - if @header.present?
+    20:         = render partial: @header
+  
+app/views/layouts/unified.html.slim:17
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:34:32 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.9ms | Allocations: 19378)
+  Rendered layout layouts/unified.html.slim (Duration: 6.4ms | Allocations: 23645)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 24332)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /home/mchavez76/slim_jquery_rails_practice/app/views/layouts/unified.html.slim, Line 17, Column 3
+    unified_toolbar'
+    ^
+):
+    14:     = javascript_include_tag 'application'
+    15:   body#unified-body *{ data: { controller: controller_name, action: action_name } }
+    16:     = render partial: 'layouts/unified_modal'
+    17:    unified_toolbar'
+    18:     #unified-header
+    19:       - if @header.present?
+    20:         = render partial: @header
+  
+app/views/layouts/unified.html.slim:17
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:34:39 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.3ms | Allocations: 19368)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.7ms | Allocations: 8635)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.9ms | Allocations: 5569)
+  Rendered layout layouts/unified.html.slim (Duration: 11.5ms | Allocations: 55163)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 55849)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<ActionView::Base:0x000000000186f0>):
+    6:       span=< @header_text
+    7: .stretch-column
+    8: .shrink-column.search-container
+    9:   = render partial: "layouts/search" if user_signed_in?
+  
+app/views/layouts/_unified_header.html.slim:9
+app/views/layouts/unified.html.slim:21
+app/controllers/jjk_controller.rb:4:in `index'
+Started GET "/" for ::1 at 2023-11-03 16:34:52 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 19368)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.8ms | Allocations: 8635)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 11.8ms | Allocations: 53808)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 54527)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:36:18 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.0ms | Allocations: 19370)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.9ms | Allocations: 8641)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 13.5ms | Allocations: 53785)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 54495)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:39:01 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.3ms | Allocations: 19375)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.3ms | Allocations: 8641)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4174)
+  Rendered layout layouts/unified.html.slim (Duration: 16.3ms | Allocations: 53795)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 54505)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:39:21 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.4ms | Allocations: 19061)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.6ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 13.9ms | Allocations: 53475)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 54185)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:39:49 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.6ms | Allocations: 19372)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 16.5ms | Allocations: 53789)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 54496)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:40:03 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.0ms | Allocations: 21579)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 13.1ms | Allocations: 55994)
+Completed 200 OK in 14ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 56704)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:40:50 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 5.6ms | Allocations: 21635)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 15.0ms | Allocations: 56058)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 56765)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:40:51 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 0.9ms | Allocations: 785)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1004)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:40:52 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 0.7ms | Allocations: 779)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 997)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:41:27 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.4ms | Allocations: 24540)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8647)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4176)
+  Rendered layout layouts/unified.html.slim (Duration: 14.0ms | Allocations: 58970)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 59679)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:45:01 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.7ms | Allocations: 16477)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.0ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.3ms | Allocations: 4169)
+  Rendered layout layouts/unified.html.slim (Duration: 13.5ms | Allocations: 50887)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 51597)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:45:35 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 5.3ms | Allocations: 16480)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.5ms | Allocations: 8642)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 15.8ms | Allocations: 50910)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 51617)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:48:26 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 0.9ms | Allocations: 776)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 995)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:48:49 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 16518)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4171)
+  Rendered layout layouts/unified.html.slim (Duration: 14.4ms | Allocations: 50948)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 51657)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:49:03 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.6ms | Allocations: 16483)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4171)
+  Rendered layout layouts/unified.html.slim (Duration: 12.9ms | Allocations: 50912)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 51622)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:49:58 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 7.3ms | Allocations: 17525)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.5ms | Allocations: 8642)
+  Rendered layouts/_unified_header.html.slim (Duration: 4.2ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 20.5ms | Allocations: 51948)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 52655)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:50:34 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.3ms | Allocations: 17293)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 3.2ms | Allocations: 4175)
+  Rendered layout layouts/unified.html.slim (Duration: 13.6ms | Allocations: 51706)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 52416)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:51:15 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.4ms | Allocations: 18593)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4170)
+  Rendered layout layouts/unified.html.slim (Duration: 12.3ms | Allocations: 53015)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 53725)
+
+
+Started GET "/" for ::1 at 2023-11-03 16:51:52 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 17397)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4171)
+  Rendered layout layouts/unified.html.slim (Duration: 14.7ms | Allocations: 51823)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 52532)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:02:22 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 9.1ms | Allocations: 27164)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.6ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 2.0ms | Allocations: 4182)
+  Rendered layout layouts/unified.html.slim (Duration: 21.1ms | Allocations: 62246)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 66029)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:05:42 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 7.4ms | Allocations: 16085)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8642)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4169)
+  Rendered layout layouts/unified.html.slim (Duration: 18.0ms | Allocations: 50527)
+Completed 200 OK in 20ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 51239)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:05:44 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 0.7ms | Allocations: 770)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 991)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:05:55 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.3ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 1.1ms | Allocations: 774)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 994)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:06:14 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 7.6ms | Allocations: 25839)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.9ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4182)
+  Rendered layout layouts/unified.html.slim (Duration: 19.4ms | Allocations: 60937)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 64720)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:09:44 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.0ms | Allocations: 21648)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8638)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4169)
+  Rendered layout layouts/unified.html.slim (Duration: 14.3ms | Allocations: 56069)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 56777)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:14:17 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.0ms | Allocations: 21667)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.6ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4169)
+  Rendered layout layouts/unified.html.slim (Duration: 14.4ms | Allocations: 56115)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 56900)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:15:34 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 69)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 9)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.6ms | Allocations: 2574)
+  Rendered layout layouts/unified.html.slim (Duration: 2.6ms | Allocations: 3577)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 4054)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:16:39 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 336)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1062)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:18:28 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 5.2ms | Allocations: 21667)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.5ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2557)
+  Rendered layout layouts/unified.html.slim (Duration: 17.0ms | Allocations: 58794)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 59583)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:20:39 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 69)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/unified.html.slim (Duration: 1.6ms | Allocations: 2241)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2709)
+
+
+  
+ActionView::Template::Error (Missing partial jjk/_show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder, :slim]}.
+
+Searched in:
+  * "/home/mchavez76/slim_jquery_rails_practice/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    35:                   .gutter-content= render partial: @left_gutter
+    36:               - elsif @top_left_gutter.present?
+    37:                 #top-left
+    38:                   .gutter-content= render partial: @top_left_gutter
+    39:               - if @bot_left_gutter.present?
+    40:                 #bot-left
+    41:                   .gutter-content= render partial: @bot_left_gutter
+  
+app/views/layouts/unified.html.slim:38
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 17:21:32 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.7ms | Allocations: 21665)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4169)
+  Rendered jjk/_show.html.slim (Duration: 1.7ms | Allocations: 6872)
+  Rendered layout layouts/unified.html.slim (Duration: 15.0ms | Allocations: 63070)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 63793)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:22:06 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.6ms | Allocations: 21645)
+  Rendered layouts/_unified_modal.html.slim (Duration: 5.1ms | Allocations: 8645)
+  Rendered layouts/_unified_header.html.slim (Duration: 2.0ms | Allocations: 4175)
+  Rendered layout layouts/unified.html.slim (Duration: 16.2ms | Allocations: 57132)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 57819)
+
+
+  
+ActionView::Template::Error (Missing partial jjk/_show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :haml, :jbuilder, :slim]}.
+
+Searched in:
+  * "/home/mchavez76/slim_jquery_rails_practice/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "/home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+    35:                   .gutter-content= render partial: @left_gutter
+    36:               - elsif @top_left_gutter.present?
+    37:                 #top-left
+    38:                   .gutter-content= render partial: @top_left_gutter
+    39:               - if @bot_left_gutter.present?
+    40:                 #bot-left
+    41:                   .gutter-content= render partial: @bot_left_gutter
+  
+app/views/layouts/unified.html.slim:38
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 17:22:24 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 12)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 69)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 9)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.6ms | Allocations: 2570)
+  Rendered layout layouts/unified.html.slim (Duration: 2.7ms | Allocations: 3583)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 4057)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:23:55 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.1ms | Allocations: 22537)
+  Rendered layout layouts/unified.html.slim (Duration: 4.3ms | Allocations: 22621)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 23319)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `projects_path' for #<ActionView::Base:0x00000000021cc8>):
+    1: = form_tag(projects_path, method: :get, class: 'no-pad')
+    2:   head
+    3:     meta content=("text/html; charset=UTF-8")
+    4:     title My Favorite Anime
+  
+app/views/jjk/index.html.slim:1
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 17:24:07 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.4ms | Allocations: 22590)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.8ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.3ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 13.7ms | Allocations: 59504)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 60214)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:24:45 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 5.4ms | Allocations: 22038)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8647)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 16.1ms | Allocations: 58972)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 59685)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:25:11 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.3ms | Allocations: 23029)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.6ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.9ms | Allocations: 4184)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 16.0ms | Allocations: 59963)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 60676)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:25:28 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.1ms | Allocations: 23084)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 14.7ms | Allocations: 60006)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 60719)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:26:46 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.7ms | Allocations: 22511)
+  Rendered layout layouts/unified.html.slim (Duration: 3.9ms | Allocations: 22595)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 23282)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jjk_path' for #<ActionView::Base:0x00000000022470>):
+    1: = form_tag(jjk_path, method: :get, class: 'no-pad') do
+    2:   head
+    3:     meta content=("text/html; charset=UTF-8")
+    4:     title My Favorite Anime
+  
+app/views/jjk/index.html.slim:1
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 17:27:31 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 271)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 837)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:29:14 -0500
+  
+NoMethodError (undefined method `routes' for Rails::Application:Class):
+  
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-11-03 17:29:56 -0500
+  
+NameError (uninitialized constant SlimJqueryRailsPractice):
+  
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-11-03 17:30:12 -0500
+  
+NoMethodError (undefined method `Application' for Rails:Module):
+  
+config/routes.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-11-03 17:30:18 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.2ms | Allocations: 889)
+  Rendered layout layouts/unified.html.slim (Duration: 0.3ms | Allocations: 973)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1420)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jjk_path' for #<ActionView::Base:0x0000000002a210>):
+    1: = form_tag(jjk_path, method: :get, class: 'no-pad') do
+    2:   head
+    3:     meta content=("text/html; charset=UTF-8")
+    4:     title My Favorite Anime
+  
+app/views/jjk/index.html.slim:1
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 17:31:16 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.5ms | Allocations: 889)
+  Rendered layout layouts/unified.html.slim (Duration: 0.6ms | Allocations: 973)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1420)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `jjk_path' for #<ActionView::Base:0x0000000002de10>):
+    1: = form_tag(jjk_path, method: :get, class: 'no-pad') do
+    2:   head
+    3:     meta content=("text/html; charset=UTF-8")
+    4:     title My Favorite Anime
+  
+app/views/jjk/index.html.slim:1
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 17:31:26 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.6ms | Allocations: 22459)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.6ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 17.2ms | Allocations: 59391)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 60111)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:31:40 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.2ms | Allocations: 21649)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8638)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 14.6ms | Allocations: 58738)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 59451)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:32:59 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 6.5ms | Allocations: 21480)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8640)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 16.9ms | Allocations: 58573)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 59283)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:34:11 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.9ms | Allocations: 21652)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8648)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4172)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.0ms | Allocations: 2660)
+  Rendered layout layouts/unified.html.slim (Duration: 16.4ms | Allocations: 58856)
+Completed 200 OK in 17ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 59569)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:35:08 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.6ms | Allocations: 21652)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 2.5ms | Allocations: 4173)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2617)
+  Rendered layout layouts/unified.html.slim (Duration: 16.1ms | Allocations: 58822)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 59535)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:36:06 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.4ms | Allocations: 21655)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4172)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2557)
+  Rendered layout layouts/unified.html.slim (Duration: 16.0ms | Allocations: 58762)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 59475)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:36:18 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 9.1ms | Allocations: 31422)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4182)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2558)
+  Rendered layout layouts/unified.html.slim (Duration: 22.1ms | Allocations: 69179)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 72966)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:36:53 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.8ms | Allocations: 21646)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.6ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2613)
+  Rendered layout layouts/unified.html.slim (Duration: 20.0ms | Allocations: 58801)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 59512)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:37:15 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.9ms | Allocations: 21651)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2613)
+  Rendered layout layouts/unified.html.slim (Duration: 14.5ms | Allocations: 58798)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 59511)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:37:58 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 28.2ms | Allocations: 21645)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.3ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2661)
+  Rendered layout layouts/unified.html.slim (Duration: 43.9ms | Allocations: 58869)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 59579)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:38:15 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.6ms | Allocations: 21653)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2555)
+  Rendered layout layouts/unified.html.slim (Duration: 15.1ms | Allocations: 58728)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 59441)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:38:23 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.9ms | Allocations: 21646)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2557)
+  Rendered layout layouts/unified.html.slim (Duration: 15.8ms | Allocations: 58771)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 59483)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:41:27 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 11.1ms | Allocations: 31422)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4182)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2556)
+  Rendered layout layouts/unified.html.slim (Duration: 21.9ms | Allocations: 69196)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 72983)
+
+
+Started GET "/" for ::1 at 2023-11-03 17:41:34 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.6ms | Allocations: 21646)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.7ms | Allocations: 8657)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2660)
+  Rendered layout layouts/unified.html.slim (Duration: 19.4ms | Allocations: 58850)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 59561)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:44:13 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 8.9ms | Allocations: 31422)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4182)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2661)
+  Rendered layout layouts/unified.html.slim (Duration: 21.3ms | Allocations: 69166)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 72954)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:45:37 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.2ms | Allocations: 16092)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.7ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.9ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 21.9ms | Allocations: 53332)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 54043)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:46:27 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 69)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/unified.html.slim (Duration: 0.9ms | Allocations: 875)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1347)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:49:32 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 5.2ms | Allocations: 16112)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 16.7ms | Allocations: 53340)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 54130)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:49:50 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.8ms | Allocations: 16317)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.7ms | Allocations: 8638)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 12.2ms | Allocations: 53507)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 54217)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:50:19 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.7ms | Allocations: 16377)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8641)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.8ms | Allocations: 53575)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 54287)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:50:47 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 7.0ms | Allocations: 25323)
+  Rendered layout layouts/unified.html.slim (Duration: 7.3ms | Allocations: 25408)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 26125)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+    link href="/assets/styles.css" rel="stylesheet"
+    script src="/assets/application.js" type="text/javascript" defer
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+        button.h1.title href = #{@top_left_gutter} Goblin Slayer 
+        img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1.title Berserk
+        img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1.title Jujutsu Kaisen
+        
+        img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+        
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+    
+    
+              
+              
+    center
+      a href="#top" GO TO TOP
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:        link href="/assets/styles.css" rel="stylesheet"
+8:        script src="/assets/application.js" type="text/javascript" defer
+9:      body
+10:        header
+11:          center
+12:            h1#top.title-page My Favorite Anime 
+13:      main 
+14:        div
+15:          center
+16:            button.h1.title href = #{@top_left_gutter} Goblin Slayer 
+17:            img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+18:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+19:          br
+20:          br
+21:          center
+22:            h1.title Berserk
+23:            img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+24:    
+25:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+26:          br
+27:          br
+28:          center
+29:            h1.title Jujutsu Kaisen
+30:            
+31:            img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+32:            
+33:    
+34:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+35:      
+36:        
+37:        
+38:                  
+39:                  
+40:        center
+41:          a href="#top" GO TO TOP
+  
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:50:53 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.9ms | Allocations: 17766)
+  Rendered layout layouts/unified.html.slim (Duration: 3.1ms | Allocations: 17851)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 18540)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+    link href="/assets/styles.css" rel="stylesheet"
+    script src="/assets/application.js" type="text/javascript" defer
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+        button.h1.title href = #{@top_left_gutter} 
+          Goblin Slayer 
+        img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1.title Berserk
+        img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1.title Jujutsu Kaisen
+        
+        img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+        
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+    
+    
+              
+              
+    center
+      a href="#top" GO TO TOP
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:        link href="/assets/styles.css" rel="stylesheet"
+8:        script src="/assets/application.js" type="text/javascript" defer
+9:      body
+10:        header
+11:          center
+12:            h1#top.title-page My Favorite Anime 
+13:      main 
+14:        div
+15:          center
+16:            button.h1.title href = #{@top_left_gutter} 
+17:              Goblin Slayer 
+18:            img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+19:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+20:          br
+21:          br
+22:          center
+23:            h1.title Berserk
+24:            img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+25:    
+26:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+27:          br
+28:          br
+29:          center
+30:            h1.title Jujutsu Kaisen
+31:            
+32:            img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+33:            
+34:    
+35:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+36:      
+37:        
+38:        
+39:                  
+40:                  
+41:        center
+42:          a href="#top" GO TO TOP
+  
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:51:02 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.7ms | Allocations: 17765)
+  Rendered layout layouts/unified.html.slim (Duration: 2.8ms | Allocations: 17850)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 18538)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+    link href="/assets/styles.css" rel="stylesheet"
+    script src="/assets/application.js" type="text/javascript" defer
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+        button.h1.title href= #{@top_left_gutter} 
+          Goblin Slayer 
+        img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1.title Berserk
+        img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1.title Jujutsu Kaisen
+        
+        img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+        
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+    
+    
+              
+              
+    center
+      a href="#top" GO TO TOP
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:        link href="/assets/styles.css" rel="stylesheet"
+8:        script src="/assets/application.js" type="text/javascript" defer
+9:      body
+10:        header
+11:          center
+12:            h1#top.title-page My Favorite Anime 
+13:      main 
+14:        div
+15:          center
+16:            button.h1.title href= #{@top_left_gutter} 
+17:              Goblin Slayer 
+18:            img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+19:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+20:          br
+21:          br
+22:          center
+23:            h1.title Berserk
+24:            img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+25:    
+26:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+27:          br
+28:          br
+29:          center
+30:            h1.title Jujutsu Kaisen
+31:            
+32:            img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+33:            
+34:    
+35:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+36:      
+37:        
+38:        
+39:                  
+40:                  
+41:        center
+42:          a href="#top" GO TO TOP
+  
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:51:41 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.3ms | Allocations: 16692)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.5ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 14.5ms | Allocations: 53907)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 54618)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:52:25 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.2ms | Allocations: 17564)
+  Rendered layout layouts/unified.html.slim (Duration: 3.3ms | Allocations: 17649)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 18337)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+    link href="/assets/styles.css" rel="stylesheet"
+    script src="/assets/application.js" type="text/javascript" defer
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+        a.gutter-item.form.open-modalhref= "https://mikechavo.github.io/Mikechavo/"
+         span  Goblin Slayer 
+        img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1.title Berserk
+        img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1.title Jujutsu Kaisen
+        
+        img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+        
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+    
+    
+              
+              
+    center
+      a href="#top" GO TO TOP
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:        link href="/assets/styles.css" rel="stylesheet"
+8:        script src="/assets/application.js" type="text/javascript" defer
+9:      body
+10:        header
+11:          center
+12:            h1#top.title-page My Favorite Anime 
+13:      main 
+14:        div
+15:          center
+16:            a.gutter-item.form.open-modalhref= "https://mikechavo.github.io/Mikechavo/"
+17:             span  Goblin Slayer 
+18:            img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+19:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+20:          br
+21:          br
+22:          center
+23:            h1.title Berserk
+24:            img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+25:    
+26:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+27:          br
+28:          br
+29:          center
+30:            h1.title Jujutsu Kaisen
+31:            
+32:            img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+33:            
+34:    
+35:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+36:      
+37:        
+38:        
+39:                  
+40:                  
+41:        center
+42:          a href="#top" GO TO TOP
+  
+app/views/jjk/index.html.slim:16: syntax error, unexpected `do', expecting `end' or dummy end
+app/views/jjk/index.html.slim:44: syntax error, unexpected `end'
+app/views/jjk/index.html.slim:16: syntax error, unexpected `do', expecting `end' or dummy end
+app/views/jjk/index.html.slim:44: syntax error, unexpected `end'
+app/views/jjk/index.html.slim:16: syntax error, unexpected `do', expecting `end' or dummy end
+app/views/jjk/index.html.slim:44: syntax error, unexpected `end'
+app/views/jjk/index.html.slim:16: syntax error, unexpected `do', expecting `end' or dummy end
+app/views/jjk/index.html.slim:44: syntax error, unexpected `end'
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:52:47 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.6ms | Allocations: 16167)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 11.9ms | Allocations: 53378)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 54113)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:53:48 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 16348)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.3ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2660)
+  Rendered layout layouts/unified.html.slim (Duration: 19.7ms | Allocations: 53557)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 54267)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:54:32 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.7ms | Allocations: 14578)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.5ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 14.0ms | Allocations: 51772)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 52485)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:55:23 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.6ms | Allocations: 14579)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8642)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.0ms | Allocations: 51788)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 52498)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:55:40 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.2ms | Allocations: 16258)
+  Rendered layout layouts/unified.html.slim (Duration: 3.4ms | Allocations: 16343)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 17034)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+    link href="/assets/styles.css" rel="stylesheet"
+    script src="/assets/application.js" type="text/javascript" defer
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+       a href="#{https://mikechavo.github.io/Mikechavo/}" Gobline Slayer
+        img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1.title Berserk
+        img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1.title Jujutsu Kaisen
+        
+        img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+        
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+    
+    
+              
+              
+    center
+      a href="#top" GO TO TOP
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:        link href="/assets/styles.css" rel="stylesheet"
+8:        script src="/assets/application.js" type="text/javascript" defer
+9:      body
+10:        header
+11:          center
+12:            h1#top.title-page My Favorite Anime 
+13:      main 
+14:        div
+15:          center
+16:           a href="#{https://mikechavo.github.io/Mikechavo/}" Gobline Slayer
+17:            img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+18:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+19:          br
+20:          br
+21:          center
+22:            h1.title Berserk
+23:            img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+24:    
+25:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+26:          br
+27:          br
+28:          center
+29:            h1.title Jujutsu Kaisen
+30:            
+31:            img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+32:            
+33:    
+34:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+35:      
+36:        
+37:        
+38:                  
+39:                  
+40:        center
+41:          a href="#top" GO TO TOP
+  
+app/views/jjk/index.html.slim:16: syntax error, unexpected label
+app/views/jjk/index.html.slim:16: unknown regexp options - kchav
+app/views/jjk/index.html.slim:16: syntax error, unexpected label
+app/views/jjk/index.html.slim:16: unknown regexp options - kchav
+app/views/jjk/index.html.slim:16: syntax error, unexpected label
+app/views/jjk/index.html.slim:16: unknown regexp options - kchav
+app/views/jjk/index.html.slim:16: syntax error, unexpected label
+app/views/jjk/index.html.slim:16: unknown regexp options - kchav
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:56:09 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.6ms | Allocations: 14638)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.8ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 12.2ms | Allocations: 51829)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 52539)
+
+
+Started GET "/jjk/goblinslayer" for 127.0.0.1 at 2023-11-03 17:56:10 -0500
+  
+AbstractController::ActionNotFound (The action 'goblinslayer' could not be found for JjkController):
+  
+actionpack (7.0.8) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.7) lib/puma/configuration.rb:252:in `call'
+puma (5.6.7) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.7) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.7) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.7) lib/puma/server.rb:443:in `process_client'
+puma (5.6.7) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:56:25 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.5ms | Allocations: 15662)
+  Rendered layout layouts/unified.html.slim (Duration: 3.7ms | Allocations: 15747)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 16435)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check doctype html
+html lang="en"
+  head
+    meta content=("text/html; charset=UTF-8")
+    title My Favorite Anime
+    link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+    link href="/assets/styles.css" rel="stylesheet"
+    script src="/assets/application.js" type="text/javascript" defer
+  body
+    header
+      center
+        h1#top.title-page My Favorite Anime 
+  main 
+    div
+      center
+       a href= #{@top_left_gutter} Gobline Slayer
+        img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+      h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+      br
+      br
+      center
+        h1.title Berserk
+        img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+
+      h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+      br
+      br
+      center
+        h1.title Jujutsu Kaisen
+        
+        img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+        
+
+      h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+  
+    
+    
+              
+              
+    center
+      a href="#top" GO TO TOP
+):
+1:    doctype html
+2:    html lang="en"
+3:      head
+4:        meta content=("text/html; charset=UTF-8")
+5:        title My Favorite Anime
+6:        link href="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1" rel="icon"
+7:        link href="/assets/styles.css" rel="stylesheet"
+8:        script src="/assets/application.js" type="text/javascript" defer
+9:      body
+10:        header
+11:          center
+12:            h1#top.title-page My Favorite Anime 
+13:      main 
+14:        div
+15:          center
+16:           a href= #{@top_left_gutter} Gobline Slayer
+17:            img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+18:          h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+19:          br
+20:          br
+21:          center
+22:            h1.title Berserk
+23:            img#myImage2 border="5" center="" height="400" width="600" src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg"
+24:    
+25:          h2#text Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.
+26:          br
+27:          br
+28:          center
+29:            h1.title Jujutsu Kaisen
+30:            
+31:            img#myImage3 border="5" center="" height="400" width="600" src="https://static.bandainamcoent.eu/high/jujutsu-kaisen/jujutsu-kaisen-cursed-clash/00-page-setup/JJK-header-mobile2.jpg"
+32:            
+33:    
+34:          h2#text Jujutsu Kaisen follows the story of Yuji Itadori, an ordinary boy who crosses paths with Megumi Fushiguro, a Jujutsu Sorcerer searching for a powerful Cursed Object known as Ryomen Sukuna's finger. Unintentionally, Yuji's friends unseal the Cursed Object, attracting dangerous Curses to their location.
+35:      
+36:        
+37:        
+38:                  
+39:                  
+40:        center
+41:          a href="#top" GO TO TOP
+  
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/views/jjk/index.html.slim:17: syntax error, unexpected ';'
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-11-03 17:56:31 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 14653)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.0ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.0ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 12.8ms | Allocations: 51844)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 52567)
+
+
+Started GET "/jjk/goblinslayer" for 127.0.0.1 at 2023-11-03 17:56:33 -0500
+  
+AbstractController::ActionNotFound (The action 'goblinslayer' could not be found for JjkController):
+  
+actionpack (7.0.8) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.8) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.8) lib/rack/etag.rb:27:in `call'
+rack (2.2.8) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.8) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.8) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.8) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.8) lib/rack/method_override.rb:24:in `call'
+rack (2.2.8) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.8) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8) lib/rails/engine.rb:530:in `call'
+puma (5.6.7) lib/puma/configuration.rb:252:in `call'
+puma (5.6.7) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.7) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.7) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.7) lib/puma/server.rb:443:in `process_client'
+puma (5.6.7) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-11-03 17:58:54 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.8ms | Allocations: 16574)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.2ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 16.0ms | Allocations: 53773)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 54483)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:00:08 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 6.0ms | Allocations: 14576)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8642)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4174)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 18.1ms | Allocations: 51784)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 52494)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:01:30 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.5ms | Allocations: 16613)
+  Rendered layouts/_unified_modal.html.slim (Duration: 4.9ms | Allocations: 8646)
+  Rendered layouts/_unified_header.html.slim (Duration: 2.2ms | Allocations: 4173)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2661)
+  Rendered layout layouts/unified.html.slim (Duration: 50.4ms | Allocations: 53805)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms | Allocations: 54518)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:02:29 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.3ms | Allocations: 16094)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.6ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.7ms | Allocations: 53299)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 54012)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:02:47 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.7ms | Allocations: 16608)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 2.5ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2660)
+  Rendered layout layouts/unified.html.slim (Duration: 16.3ms | Allocations: 53810)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 54520)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:03:06 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.0ms | Allocations: 16093)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.0ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 13.9ms | Allocations: 53289)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 54002)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:03:18 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.7ms | Allocations: 16608)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.2ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.2ms | Allocations: 53827)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 54537)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:03:26 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.4ms | Allocations: 16612)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4170)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.0ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 13.7ms | Allocations: 53802)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 54515)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:03:33 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 1.2ms | Allocations: 4662)
+  Rendered layout layouts/unified.html.slim (Duration: 1.4ms | Allocations: 4746)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 5437)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /home/mchavez76/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 17, Column 8
+    | Goblin Slayer
+    ^
+):
+    14:     div
+    15:       center
+    16:           a href="https://mikechavo.github.io/Mikechavo/" target="_blank"
+    17:         | Goblin Slayer
+    18:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    19:       h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    20:       br
+  
+app/views/jjk/index.html.slim:17
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 18:03:38 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 1.8ms | Allocations: 4671)
+  Rendered layout layouts/unified.html.slim (Duration: 2.0ms | Allocations: 4755)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 5442)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /home/mchavez76/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 18, Column 8
+    img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    ^
+):
+    15:       center
+    16:           a href="https://mikechavo.github.io/Mikechavo/" target="_blank"
+    17:           | Goblin Slayer
+    18:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    19:       h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    20:       br
+    21:       br
+  
+app/views/jjk/index.html.slim:18
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 18:03:42 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 1.3ms | Allocations: 4671)
+  Rendered layout layouts/unified.html.slim (Duration: 1.4ms | Allocations: 4755)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 5442)
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  /home/mchavez76/slim_jquery_rails_practice/app/views/jjk/index.html.slim, Line 18, Column 8
+    img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    ^
+):
+    15:       center
+    16:           a href="https://mikechavo.github.io/Mikechavo/" target="_blank"
+    17:             | Goblin Slayer
+    18:         img#myImage1 (border="5" center="" height="400" width="600" src="https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/03/Goblin-Slayer-Another-Adventurer-Nightmare-Feast-008.jpeg?resize=900%2C506&ssl=1")
+    19:       h2#text In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters. But one day he meets a friend, and his life begins to become more intense. A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress.
+    20:       br
+    21:       br
+  
+app/views/jjk/index.html.slim:18
+app/controllers/jjk_controller.rb:5:in `index'
+Started GET "/" for ::1 at 2023-11-03 18:03:48 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.4ms | Allocations: 16615)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.0ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 12.9ms | Allocations: 53807)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 54517)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:03:57 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 2.9ms | Allocations: 16807)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.5ms | Allocations: 8643)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.6ms | Allocations: 53999)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 54709)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:04:18 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 1.0ms | Allocations: 850)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1072)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:05:06 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.8ms | Allocations: 16801)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.6ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.8ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 16.0ms | Allocations: 53983)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 54695)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:06:20 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.5ms | Allocations: 17009)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.4ms | Allocations: 8639)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.7ms | Allocations: 54199)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 54912)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:07:25 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.2ms | Allocations: 17166)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.2ms | Allocations: 8646)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4171)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2660)
+  Rendered layout layouts/unified.html.slim (Duration: 15.6ms | Allocations: 54374)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 55087)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:27:40 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.1ms | Allocations: 12)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.1ms | Allocations: 69)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 9)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/unified.html.slim (Duration: 1.8ms | Allocations: 935)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1411)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:33:40 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 11.3ms | Allocations: 26942)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.5ms | Allocations: 4180)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2661)
+  Rendered layout layouts/unified.html.slim (Duration: 23.5ms | Allocations: 64809)
+Completed 200 OK in 55ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 68622)
+
+
+Started GET "/" for ::1 at 2023-11-03 18:34:34 -0500
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.1ms | Allocations: 17095)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.1ms | Allocations: 8638)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 13.0ms | Allocations: 54301)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 55016)
+
+
+Started GET "/goblin_slayer" for ::1 at 2023-11-03 18:34:35 -0500
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 1.1ms | Allocations: 1637)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 4241)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 5010)
+
+
+Started GET "/goblin_slayer" for ::1 at 2023-11-03 18:34:44 -0500
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 789)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1055)
+
+
+Started GET "/goblin_slayer" for ::1 at 2023-11-03 18:35:07 -0500
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 810)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1099)
+
+
