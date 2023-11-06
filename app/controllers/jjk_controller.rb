@@ -4,4 +4,7 @@ class JjkController < ApplicationController
 
     render layout: 'unified'
   end
+  def show
+    
+  end
 end
