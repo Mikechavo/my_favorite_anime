@@ -1,0 +1,25 @@
+#unified-modal
+  = hidden_field_tag :modal_history
+  #modal-main
+    #modal-header
+      .horizontal-grid.no-top-pad
+        .shrink-column
+          i#header-icon
+          span#header-text
+        .stretch-column
+        .shrink-column
+          a.icon-only.close-modal
+            i.fa-solid.fa-circle-xmark
+    #modal-content
+    #modal-actions
+      .horizontal-grid.no-top-pad
+        .stretch-column
+          .unified-loader
+            .loader-content
+              span Loading
+              i.fa-solid.fa-spinner.fa-spin
+        .shrink-column
+          a.button-unified.submit-modal-custom Submit
+          a.button-unified.submit-modal Submit
+        .shrink-column
+          a.button-unified.danger.close-modal Cancel

@@ -1,0 +1,80 @@
+@import 'mixins';
+
+// flex spacing
+.horizontal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  &.nowrap {
+    flex-wrap: nowrap;
+  }
+  &.text-right {
+    justify-content: right;
+  }
+  &.text-left {
+    justify-content: left;
+  }
+}
+.stretch-column {
+  flex: 1 1;
+}
+.shrink-column {
+  flex: 0 1 auto;
+  &.align-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+}
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.horizontal-grid {
+  .stretch-column, .shrink-column {
+    padding-top: $padding-general;
+    padding-right: $padding-general;
+    &.no-top-pad {
+      padding-top: 0;
+    }
+    &.no-pad {
+      padding: 0;
+    }
+  }
+  &.no-top-pad {
+    padding-top: 0;
+  }
+  &.no-bottom-pad {
+    padding-bottom: 0;
+  }
+  & > .horizontal-grid {
+    padding-right: 0;
+  }
+
+  &.divider-row {
+    & > .stretch-column, & > .shrink-column {
+      padding-bottom: $padding-general;
+      border-bottom: 1px solid lightgray;
+      &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+        & > div:last-child {
+          padding-bottom: $padding-general;
+          border-bottom: 1px solid lightgray;
+        }
+      }
+    }
+  }
+}
+
+// top level horizontal-grids are only used to contain panels (which have their own padding)
+#gutter-main > .horizontal-grid {
+  padding: 0;
+  & > .shrink-column { padding: 0; }
+  & > .stretch-column { padding: 0; }
+}

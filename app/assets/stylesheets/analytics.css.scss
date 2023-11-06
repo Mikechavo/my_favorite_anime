@@ -1,0 +1,86 @@
+/* Data & Serices Validation */
+
+table#verification-advanced-options {
+  table-layout: fixed; 
+  width: 1080px; 
+  word-break: break-all;
+  
+  td {
+    font-size: 11.5px;
+    color: #71666B;
+    
+    &.options-cell {
+      vertical-align: top;
+    }
+  }
+}
+
+table {
+  &#search-criteria {
+    tr {
+      &.title-row { 
+        th {
+           white-space: nowrap; 
+           
+           &.link-container {
+             text-align: right;
+           }
+         }
+      }
+    }
+  }
+}
+
+
+table.tool {
+  
+  &.strip {
+    margin: 15px 15px 15px -12px;
+    table-layout: fixed; 
+    width: 100%; 
+    word-break: break-all;
+    
+    td {
+      overflow: hidden; /*Hide text outside the cell.*/
+      padding-left: 10px;
+      padding-right: 10px;
+      
+      &.spinner {
+        text-align: center;
+      }
+    }
+  }
+  
+  td {
+    white-space: nowrap;
+    text-align: left;
+    
+    &.label { text-align: right; }
+    &.button { text-align: center; }
+  }
+  
+  tr {
+    background: #eee;
+    
+    &.heading {
+      background: #fff;
+    }
+  }
+}
+
+
+
+tbody.toggle {
+  display: none;
+}
+
+
+form table input[type=text].account-number {
+	width: 4em;
+  font-size: 14px;
+}
+
+span.optional-field-caption {
+	font-size: 10px;
+	display: block;
+}

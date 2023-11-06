@@ -1,0 +1,109 @@
+/* STYLES INTENDED FOR THE VIDEO SECTION OF CERP */
+
+div.description {
+	font-style: italic;
+	vertical-align: top;
+}
+
+div.file_name {
+	font: 90% Courier, sans-serif;
+}
+
+div.inline_edit:hover {
+	background: #fef5ca;
+}
+
+div.video {
+	padding: 3px 0px 3px 0px;
+	width: inherit;
+}
+
+div.vid_thumb {
+	display: block;
+	width: 140px;
+	height :100px;
+}
+
+form.inline button {
+	color: #333;
+  background: #fff;
+  font-weight: 800;
+  border: 1px outset #1e3111;
+	font-size: 11px;
+	padding: 0.5px;
+}
+
+table#list_videos th a.current{
+	color: #669;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+table#list_videos th a.current{
+	color: #FF9200;
+	font-size: 9pt;
+}
+
+span.title {
+	font-weight: bold;
+}
+
+table#list_videos{
+	font-family: "Arial", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 15px;
+	border-collapse: collapse;
+	text-align: left;
+
+}
+
+table#list_videos td {
+	color: #669;
+	padding: 3px 8px;
+}
+
+#list_videos td.video_description {
+	width: 200px;
+}
+
+#list_videos td.video_thumbnail {
+	width: 170px;
+}
+
+table#list_videos th{
+	font-weight: bold;
+	color: #039;
+	padding: 3px 8px;
+	border-bottom: 2px solid #6678b1;
+	text-align: left;
+	min-width: 600px;
+}
+
+table#list_videos tr{
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BELOW SHOULD GO TO INLINE EDIT FILE OR FORM FILE */

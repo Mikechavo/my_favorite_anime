@@ -1,0 +1,108 @@
+// Place all the styles related to the ReviewMonitors controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#review_monitors {
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+    width: 50%;
+  }
+}
+form.review_monitor {
+  font-size: 10pt;
+  input[type='text'],textarea {
+    width: 80%;
+  }
+  .field_with_errors {
+    display: inline;
+
+    label {
+      color: red;
+    }
+    input {
+      border: 1px solid red;
+    }
+  }
+  table td.field {
+    height: 37px;
+  }
+}
+table.hor-minimalist-b.report-card-link {
+  td {
+    color: inherit;
+  }
+}
+a.cancel-link {
+  color: red;
+}
+a.restore-link {
+  color: green;
+}
+table.add-multiple-profiles {
+  min-width: 700px;
+  .inactive-profile {
+    color: gray; font-style: italic;
+    a {
+      color: gray;
+    }
+  }
+}
+.main-content.add-multiple-profiles {
+  min-height: 1100px;
+  height: auto;
+}
+.manual-address-flag-checked {
+  cursor: pointer;
+  color: green;
+}
+.manual-address-flag-unchecked {
+  cursor: pointer;
+  color: red;
+}
+
+#review-monitor-info-container {
+  .primary-photo-interface {
+    min-width: 333px;
+  }
+  #review-monitor-business-info {
+    width: 100%;
+    td.label {
+      text-align: left;
+    }
+  }
+}
+
+div.source-type {
+  border: thick solid;
+  margin: 10px;
+  h2 {
+    margin: 6px;
+    margin-left: 18px;
+  }
+}
+div.source-type-rc                             { border-color: deeppink;  }
+div.source-type-ceatus                         { border-color: orange;  }
+span.source-type-rc, h2.source-type-rc         { color: deeppink }
+span.source-type-ceatus, h2.source-type-ceatus { color: orange }
+
+
+
+
+// COPY TO CLIPBOARD SECTION ===================================================
+.clipboard-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+.copy-to-clipboard {
+  cursor: pointer;
+  color: #007bff;
+  font-size: 1.2rem;
+}
+.copy-to-clipboard:hover {
+  color: #a3c4e7;
+}
+.copy-to-clipboard.clicked {
+  color: #28a745;
+}

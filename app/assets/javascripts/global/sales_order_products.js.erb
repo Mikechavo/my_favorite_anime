@@ -1,0 +1,6 @@
+$(document).ready(function() {
+    $("#sales_order_id").change(function() {
+        var salesOrderID = $(this).val();
+        $(location).attr('href', '?sales_order_id=' + salesOrderID);
+    });
+});

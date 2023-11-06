@@ -1,0 +1,21 @@
+.subsection {
+  text-align: left;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 2%;
+  &.half-subsection {
+    width: 48%;
+    margin-right: 0px;
+  }
+  &.whole-subsection {
+    width: 98%;
+  }
+  & .subsection {
+    margin-top: 0px;
+  }
+  & table {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}

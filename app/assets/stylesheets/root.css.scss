@@ -1,0 +1,26 @@
+.graph-container {
+  display: inline-flex;
+  width: 1200px;
+  & .half-chart {
+    float: left;
+    width: 50%;
+  }
+}
+
+.birthdays {
+  display: inline-block;
+  white-space: nowrap;
+  text-align: left;
+  h4, p {
+    padding-bottom: 6px;
+  }
+}
+
+.birthday_image {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#chart-text-review-invitations:hover {
+  cursor: pointer;
+}

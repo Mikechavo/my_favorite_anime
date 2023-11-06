@@ -1,0 +1,73 @@
+div.banner {
+  font-size: 1.3em;
+}
+
+div.form_row {
+  position: relative;
+  padding: 4px;
+}
+
+#new-user-form table {
+  margin-left: 2%;
+  & td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    &.label {
+      text-align: right;
+    }
+    &.labeled {
+      text-align: left;
+    }
+    & input {
+      padding: 5px;
+    }
+  }
+}
+
+#admin_content {
+	position: relative;
+	float: left;
+	left: 35px;
+	width: 609px;
+	margin: 0 35px 20px 0;
+  & .settings_container {
+    padding: 25px 0;
+    border-bottom: 1px solid #d7d7d7;
+    overflow: hidden;
+    & .left_column {
+      font-weight: bold;
+      min-height: 22px;
+      color: #4f545a;
+      font-size: 14px;
+      text-align: right;
+      padding: 0 15px 0 25px;
+      float: left;
+      width: 130px;
+    }
+    & .right_column {
+      width: 422px;
+      padding: 0 0 0 15px;
+      min-height: 21px;
+      font-size: 14px;
+      background: #fff;
+      float: right;
+      & textarea {
+        width: 95%;
+        height: 60px;
+        margin-bottom: 10px;
+      }
+      & .half-field {
+        float: left;
+        width: 50%;
+        & input {
+          width: 90%;
+        }
+      }
+    }
+  }
+  & .save_settings_container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+  }
+}

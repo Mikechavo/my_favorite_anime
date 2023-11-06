@@ -1,0 +1,31 @@
+//Admin styles here
+
+div {
+  &.admin-container {
+    margin: 0 3% 0 3%;
+    padding: 10px;
+    overflow: none;
+  }
+  
+  &.single-table-container { padding: 20px; }
+}
+
+table {
+  &#product-codes {
+    font-size: 13px;
+    margin: 0;
+    width: 100%;
+    
+    td {
+      text-align: center;
+      white-space: nowrap;
+      width: 90%;
+      
+      &.cancel-link { width: 10%; }
+      &.delete-link { width: 10%; }
+      &.support-link { width: 10%; }
+      &.value { text-align: left; }
+    }
+    tr { &.column-header { background: #eee; } }
+  }
+}

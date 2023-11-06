@@ -1,0 +1,99 @@
+@import "mixins";
+
+// old styling - need to remove once all pages use unified header
+#searchcontain {
+  text-align: right;
+  float: right;
+  background-color: #fff;
+  margin-top: 10px;
+
+  .main-app-search {
+    & > div {
+      height: 25px;
+      width: 300px;
+      margin-bottom: 8px;
+
+      & th {
+        padding: 0;
+      }
+
+      & input#keywords {
+        box-sizing: border-box;
+        vertical-align: middle;
+        height: 25px;
+        padding: 3px;
+        border-right: none;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+
+      & button[type="submit"] {
+        vertical-align: middle;
+        height: 25px;
+        padding: 5px;
+        margin-top: -1px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+
+        &:focus {
+          box-shadow: none;
+          outline: none;
+        }
+
+        &:active {
+          background-color: #0087bf;
+          color: white;
+        }
+      }
+    }
+  }
+
+}
+// end old styling
+
+#unified-header {
+  display: flex;
+  height: $top-bar-height;
+  font-size: $font-header;
+  background-color: $grey-dark;
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a {
+      color: $white;
+      font-size: $font-header-large;
+      padding: $padding-general;
+      &:hover {
+        text-decoration: underline;
+        i, span {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .main-app-search {
+      padding-left: $padding-general;
+      padding-right: $padding-general;
+
+      input {
+        width: 180px;
+      }
+
+      button {
+        &:hover {
+          background-color: $primary-light;
+          color: white;
+        }
+      }
+    }
+  }
+
+}
+

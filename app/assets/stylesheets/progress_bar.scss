@@ -1,0 +1,87 @@
+@import 'mixins';
+
+.progress-bar {
+  display: flex;
+  flex-wrap: wrap;
+  .progress-step {
+    border-top: solid white 2px;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    span {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: $font-header-large;
+      white-space: nowrap;
+      padding-left: 5px;
+    }
+  }
+  .completed, .current, .pending {
+    margin-left: 0;
+    min-width: 120px;
+    height: $height-input; /* total height */
+    list-style-type: none;
+    padding: 0 0 0 30px; /* padding around text, last should include arrow width */
+    border-right: 3px solid white; /* width: gap between arrows, color: background of document */
+    position: relative;
+
+    /* remove extra padding on the first object since it doesn't have an arrow to the left */
+    /* white arrow to the left to "erase" background (starting from the 2nd object) */
+    &::before {
+      position: absolute;
+      top:0;
+      left:0;
+      display: block;
+      border-left: 25px solid white; /* width: arrow width, color: background of document */
+      border-top: calc(#{$height-input}/2) solid transparent; /* width: half height */
+      border-bottom: calc(#{$height-input}/2) solid transparent; /* width: half height */
+      width: 0;
+      height: 0;
+      content: " ";
+    }
+
+    /* colored arrow to the right */
+    &::after {
+      z-index: 1; /* need to bring this above the next item */
+      position: absolute;
+      top: 0;
+      right: -25px; /* arrow width (negated) */
+      display: block;
+      border-left: 25px solid #7c8437; /* width: arrow width */
+      border-top: calc(#{$height-input}/2) solid transparent; /* width: half height */
+      border-bottom: calc(#{$height-input}/2) solid transparent; /* width: half height */
+      width:0;
+      height:0;
+      content: " ";
+    }
+  }
+
+  /* Setup colors (both the background and the arrow) */
+  /* Completed */
+  .completed { background-color: $primary; }
+  .completed::after { border-left-color: $primary; }
+
+  /* Current */
+  .current { background-color: $primary-light; }
+  .current::after { border-left-color: $primary-light; }
+
+  /* Following */
+  .pending {
+    background-color: $primary-light-muted;
+    color: black;
+  }
+  .pending::after { border-left-color: $primary-light-muted; }
+
+  /* Hover for completed and current */
+  a.completed, a.current, a.pending {
+    &:hover {
+      background-color: $secondary;
+      color: black;
+    }
+    &:hover::after { border-left-color: $secondary; }
+  }
+}

@@ -1,0 +1,55 @@
+div {
+  &#fields {
+    color: #669;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    margin-left: 62px;
+    margin-top: 42px;
+    position: absolute;
+  }
+  &#submit_row {
+    margin-left:20px;
+    width: auto;
+  }
+  
+  &.all_emails { float: left; }
+  &.email_controls {
+    float: left;
+    width: 50%;
+  }
+}
+
+
+
+
+table {
+  &#review-profile-emails {
+    tbody {
+      &.index { 
+        a { &.support { font-size: 8pt } }
+      }
+    }
+    th { &.side { border: 1px solid #ddd; } }
+    tr {
+      &#date-range-housing {
+        background: #eee;
+        line-height: 25px;
+      }
+      
+      &.profile-email {
+        vertical-align: top;
+        white-space: nowrap;
+        
+        td { 
+          border: 1px solid #ddd; 
+          &.first { border-left: none; }
+          &.last { border-right: none; }
+          &.content { white-space: normal; }
+        }
+      }
+    }
+  }
+  
+  &.index { tr { &.uncertain { background: #ff9200; } } }
+}
+

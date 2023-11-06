@@ -1,0 +1,10 @@
+#date {
+  white-space: nowrap;
+  vertical-align: text-top;
+}
+.review-text {
+  vertical-align: text-top;
+  text-align: justify;
+  -moz-text-align-last: left; //for Firefox
+  text-align-last: right;
+}

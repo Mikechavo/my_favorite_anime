@@ -1,0 +1,429 @@
+
+a.complete {
+	color: green;
+}
+
+a.incomplete {
+	color: red;
+}
+
+a.incomplete:visited {
+	color: red;
+}
+
+
+
+
+
+table.calls-calendar
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 15px;
+	border-collapse: collapse;
+	text-align: center;
+	width: 97%;
+}
+table.calls-calendar th {
+	background-color: #ddd;
+	font: normal bold 1.25em;
+	font-weight: bold;
+	color: #525252;
+	padding: 3px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+
+table.calls-calendar td {
+	border-bottom: 1px solid #ccc;
+	color: #767676;
+	padding: 2px 8px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table.calls-calendar td.year_label {
+	background-color: #ddd;
+	border-right: 2px solid #6678b1;
+	color: dimGray;
+	font-size: 12px;
+	font-weight: 800;
+}
+
+table.calls-calendar th.noborder{
+	border: 0;
+}
+
+table.calls-calendar td.totals {
+	font: normal bold 1.0em;
+	color: #003399;
+}
+
+table.calls-calendar td.monthly_call_total a {
+	font: normal bold 1em;
+}
+
+
+table.calls-calendar td.centered_text{
+	vertical-align: middle;
+}
+
+table.calls-calendar td.password_border {
+	border-left: 1px solid #ccc;
+}
+
+tr.mini-heading{
+	background-color: #eee;
+}
+
+table.calls-calendar tbody tr td a:hover{
+	text-decoration: underline;
+}
+
+.call_list_strip {
+	font-size: 14px;
+	color: dimGray;
+	padding: 7px 0;
+	font-weight: 700;
+	clear: both;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: #F1F0F0;
+	height: 18px;
+}
+
+.call_list_strip p {
+	margin-left: 16px;
+}
+
+div.call_list_strip_container {
+	border: 1px solid #003399;
+	position: relative;
+}
+
+#calls_container {
+	padding: 10px;
+	border: 1px solid #dbdbdb;
+	overflow: hidden;
+}
+
+#call_list{
+	border: 1px thin #dbdbdb;
+	height: 350px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-color: #f2f2f2;
+	overflow-y: scroll;
+}
+
+#call_detail{
+	border: 1px thin #c1dad7;
+	height: 430px;
+	padding: 5px;
+	background-color: #f2f2f2;
+}
+
+.two-call{
+	border: 1px thin #c1dad7;
+	min-height: 410px;
+	padding: 7px 0px 7px 3px;
+	background-color: #fff;
+}
+
+div.field-captions {
+  padding-bottom: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+div#call_attributes {
+	background-color: #f2f2f2;
+	border: 1px solid #fff;
+	height: 396px;
+	float: left;
+	width: 26.5%;
+	padding: 10px 4px 4px 4px;
+}
+
+div#call_evaluate {
+	background-color: #f2f2f2;
+	border: 1px solid #fff;
+	height: 390px;
+	float: left;
+	width: 71%;
+	padding: 10px 6px 10px 5px;
+}
+
+div#call_cal_table {
+	padding: 5px;
+	border: 1px thin #B6B6B6;
+	border-radius: 3px;
+}
+
+img#empty_list_placeholder {
+	margin-left: 135px;
+	margin-top: 0px;
+}
+
+div.clear {
+	clear: both;
+}
+
+div.section {
+	width: 40%;
+	height: 17px;
+	font: italic 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: bottom;
+	float: left;
+}
+
+div#export {
+	width: 47%;
+	height: 17px;
+	float: right;
+	text-align: right;
+	padding-right: 10px;
+}
+
+div#phone_icon {
+	float: left;
+	padding-left: 10px;
+	width: 2.5%;
+}
+
+div#evaluation {
+	border-radius: 5px;
+	float: left;
+	height: 370px;
+	padding: 4px 7px 20px 7px;
+	width: 350px;
+}
+
+div#transcription {
+	border-radius: 5px;
+	height: 370px;
+	position: relative;
+	width: 320px;
+	float: left;
+	margin-left: 3px;
+	padding: 4px 10px 20px 8px;
+}
+
+div#circle_player {
+	border-radius: 5px;
+	height: 335px;
+	position: relative;
+	float: left;
+	margin-left: 3px;
+	padding: 4px 69px 56px 69px;
+	min-width: 200px;
+}
+
+.unevaluated {
+	background: #cae8ea;
+}
+
+.evaluated {
+	background: #ededed;
+	border: 1px solid #c1dad7;
+}
+
+form.edit_call input[type="text"]{
+	resize: none;
+	padding: 3px;
+	font-weight: 300;
+	font: 12px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	line-height: 16px;
+	overflow-x: hidden;
+	border: 1px solid #B6B6B6;
+	border-radius: 3px;
+	width: 190px;
+	margin-right: 2.5%;
+}
+
+form.edit_call input[type="text"]:focus {
+  background-color: #fffff2;
+  border: 1px solid #999;
+}
+
+form.edit_call textarea:focus {
+  background-color: #fffff2;
+  border: 1px solid #999;
+}
+
+h3 {
+	border-right: 1px solid #c1dad7;
+	border-bottom: 1px solid #c1dad7;
+	border-top: 1px solid #c1dad7;
+	color: #6d929b;
+	font: 12px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input.evaluate {
+	background-color: #EAC822;
+	border: 1px solid #DDBB15;
+	border-bottom-color: #AF9411;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),0 1px 0px rgba(0, 0, 0, 0.05);
+	color: #404040;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-style: normal !important;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+	background-image: linear-gradient(top, rgba(236, 223, 159, 0.85) 0%,rgba(234, 200, 34, 0) 100%);
+	padding: 2px 10px 3px;
+	text-shadow: 0 1px #F1D968;
+	text-align: center;
+	line-height: 18px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+input.phone-number.warning {
+  color: red;
+}
+
+input.evaluate:hover {
+	color: #222;
+}
+
+select.phone_numbers {
+	font-size: 16px;
+	height: auto;
+}
+
+table#call_eval td {
+	font: 11px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	width: 140px;
+}
+
+table#calls tbody tr:hover{
+	background: #fef5ca;
+}
+
+table#calls th {
+	font: 11px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	color: #6d929b;
+	border-right: 1px solid #c1dad7;
+	border-bottom: 1px solid #c1dad7;
+	border-top: 1px solid #c1dad7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: #cae8ea url(<%= asset_path 'bg_header.jpg' %>) no-repeat;
+}
+
+table#calls th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #c1dad7;
+	background: none;
+}
+
+table#calls th.spec {	
+	border-left: 1px solid #c1dad7;
+	border-top: 0;
+	background: #fff url(<%= asset_path 'bullet1.gif' %>) no-repeat;
+	font: 10px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	padding: 2px 6px 2px 12px;
+}
+
+table#calls th.specalt {
+	border-left: 1px solid #c1dad7;
+	border-top: 0;
+	background: #f5fafa url(<%= asset_path 'bullet2.gif' %>) no-repeat;
+	font: 10px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	color: #b4aa9d;
+	padding: 2px 6px 2px 12px;
+}
+
+table#calls td.alt {
+	background: #F5FAFA;
+	color: #B4AA9D;
+}
+
+table#calls td {
+	border-right: 1px solid #c1dad7;
+	border-bottom: 1px solid #c1dad7;
+	background: #fff;
+	font: 10px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	letter-spacing: 1px;
+	padding: 2px 12px 2px 12px;
+	color: #6d929b;
+}
+
+table#call_attrs {
+	table-layout:fixed;
+	width: 265px;
+}
+
+table#call_attrs th {
+	font: 11px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	color: #6d929b;
+	border-right: 1px solid #c1dad7;
+	border-bottom: 1px solid #c1dad7;
+	border-top: 1px solid #c1dad7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: #cae8ea url(<%= asset_path 'bg_header.jpg' %>) no-repeat;
+}
+
+table#call_attrs th.spec {
+	border-left: 1px solid #c1dad7;
+	border-top: 0;
+	background: #fff url(<%= asset_path 'bullet1.gif' %>) no-repeat;
+	font: 10px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	text-align: left;
+}
+
+
+table#call_attrs td {
+	border-right: 1px solid #c1dad7;
+	border-bottom: 1px solid #c1dad7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #6D929B;
+}
+
+td.duration {
+	text-align: right;
+}
+
+form.edit_call textarea{
+	height: 195px;
+	width: 287px;
+	resize: none;
+	padding: 11px;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20.8px;
+	overflow-x: hidden;
+	border: 1px solid #B6B6B6;
+	border-radius: 3px;
+	margin-right: 2.5%;
+}
+
+form.edit_call textarea.call-edit-note {
+	width: 175px; 
+	height: 60px;
+}
+
+form.edit_call select {
+	font-size: 12px;
+}
+
+
+
+

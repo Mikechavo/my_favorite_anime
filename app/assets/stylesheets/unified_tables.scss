@@ -1,0 +1,122 @@
+@import "mixins";
+
+#unified-body {
+  table.hor-minimalist-b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $general-font;
+    border-radius: $radius-general;
+    a {
+      font-size: $general-font;
+    }
+    margin: $padding-panel
+  }
+
+  // no padding/margin for tables in panels (at some point this will be global and removed from just panels
+  .panel {
+    table.hor-minimalist-b {
+      margin: 0
+    }
+  }
+}
+
+.unified-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid lightgrey;
+  font-size: $general-font;
+  th {
+    white-space: nowrap
+  }
+  &.nowrap-table {
+    white-space: nowrap;
+  }
+  a {
+    font-size: $general-font;
+  }
+  td, th {
+    padding: $padding-general-half;
+    &.text-right {
+      text-align: right;
+    }
+  }
+  thead, tbody.header {
+    font-weight: normal;
+
+    tr:first-child {
+      td:first-child {
+        border-top-left-radius: $radius-general;
+      }
+      td:last-child {
+        border-top-right-radius: $radius-general;
+      }
+      th {
+        border-top: 2px solid $primary
+      }
+    }
+    td {
+      font-size: $font-header;
+      background-color: $primary;
+      color: white;
+    }
+
+    th {
+      background-color: $primary-light-muted;
+    }
+  }
+
+  thead.fake-table-spacer {
+    tr {
+      th {
+        background-color: transparent;
+        border-top: none;
+      }
+    }
+  }
+
+  tbody.fake-table-end {
+    border-bottom: 1px solid lightgrey;
+  }
+
+  // row coloring alternation
+  tbody {
+    tr {
+      background-color: white;
+    }
+    tr:nth-child(2n+1) {
+      background-color: whitesmoke;
+    }
+    th {
+      border-top: 1px solid lightgrey;
+    }
+    td {
+      border-top: 1px solid lightgrey;
+    }
+  }
+
+  &.double-rows {
+    tbody {
+      tr:nth-child(2n+1) {
+        background-color: white;
+      }
+      tr:nth-child(4n+1) {
+        background-color: whitesmoke;
+      }
+      tr:nth-child(4n+2) {
+        background-color: whitesmoke;
+      }
+    }
+    .supplemental-row td {
+      width: 0;
+      border-top: 0;
+      padding-left: $padding-general-large
+    }
+  }
+
+  // styling to indicate headers can be clicked on for sorting
+  thead th {
+    cursor: pointer;
+    &:hover {
+      background-color: $secondary-light;
+    }
+  }
+}

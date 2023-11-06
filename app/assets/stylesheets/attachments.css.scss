@@ -1,0 +1,44 @@
+table {
+  &.attachment-field {
+    tr {
+      &.fields-row { td { white-space: nowrap; } }
+    }
+  }
+  &#project-attachments {
+    margin-left: 0px; 
+    width: 98%;
+    
+    a { &#add-attachments-link { margin-right: 10px; } }
+  }
+}
+
+
+tr {
+  &#attachments-header { background: #eee; } 
+  
+  &.attachment {
+    td {
+      text-align: left;
+      white-space: nowrap;
+    
+      &.order { width: 15px; }
+      &.filename { 
+        width: 300px; 
+        
+        &.missing { 
+          //color: red;
+          font-size: 0.8em;
+        }
+      }
+      &.uploader { width: 75px; }
+      &.uploaded { width: 15px; }
+      &.status { width: 30px; }
+    }
+    
+    &.inactive { 
+      td { } 
+    }
+  }
+  
+  
+}

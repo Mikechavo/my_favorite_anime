@@ -1,0 +1,341 @@
+@import "mixins";
+
+#unified-body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: $general-font;
+  #unified-main-container {
+    // this gradient can be removed and styles added to the main class once the majority of pages are styled to work with it
+    &.gradient-bg {
+      background: rgb(223,223,212);
+      background: linear-gradient(0deg, rgba(223,223,212,1) 0%, rgba(235,231,236,1) 55%, rgba(231,240,247,1) 100%);
+    }
+  }
+}
+
+// flex layout rules
+#unified-html, #unified-body {
+  height: 100%;
+}
+#unified-body {
+  display: flex;
+  flex-direction: column;
+  #unified-toolbar { flex: 0 0 auto }
+  #unified-header { flex: 0 0 auto }
+  #unified-main-container { flex: 1 1 auto }
+  // toolbar in main container, so flexing here
+  #unified-main-container {
+    display: flex;
+    flex-direction: column;
+    #unified-main { flex: 1 1 auto }
+    #unified-toolbar { flex: 0 0 auto }
+  }
+  // scrolling main container to fix headers to top
+  #unified-main-container { overflow: auto }
+}
+
+a.icon-only {
+  font-size: inherit;
+  color: inherit;
+
+  .icon-hollow {
+   color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  }
+
+  &.danger {
+    color: $danger
+  }
+  &.success {
+    color: $success
+  }
+  &.notice {
+    color: $primary-light
+  }
+
+}
+
+span {
+  i:after {
+    content: '\00A0'
+  }
+}
+
+.danger-text {
+  color: $danger
+}
+
+.success-text {
+  color: $success
+}
+
+
+#unified-page-description {
+  padding: $padding-general;
+}
+
+#unified-footer {
+  font-size: $general-font;
+  color: $white;
+  background-color: $primary;
+  padding: $padding-general;
+  padding-left: $size-gutter-collapsed + $padding-panel;
+  box-sizing: border-box;
+}
+
+// ckeditor dimensions before replacement to fix calculations before cke loads
+// always hidden, so important makes overriding other dimensions easy
+.ckeditor-field {
+  height: 269px !important;
+}
+
+// compound field dimensions
+.compound-field {
+  display: flex;
+  & > a { white-space: nowrap }
+  label, span, input, select, button, & > a {
+    vertical-align: top;
+    border-radius: 0px;
+    border-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    &:first-child {
+      border-left-width: 1px;
+      border-top-left-radius: $radius-general;
+      border-bottom-left-radius: $radius-general;
+    }
+    &:last-child {
+      border-top-right-radius: $radius-general;
+      border-bottom-right-radius: $radius-general;
+    }
+  }
+  label {
+    flex: 0 1 auto;
+  }
+  span {
+    flex: 1 1;
+    &.check-box-container {
+      flex: 0;
+    }
+  }
+  label, span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $padding-small;
+
+    height: $height-input;
+    white-space: nowrap;
+  }
+  input, select {
+    flex: 1 1;
+    height: $height-input;
+    font-weight: 400;
+    font-size: $general-font;
+  }
+  button, & > a {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: $height-input;
+    border-style: solid;
+    padding: $padding-small;
+    i {
+      font-size: 20px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  input[type='text'].jsDatepicker {
+    width: 110px;
+  }
+  &.wrappable {
+    // spacing
+    flex-direction: column;
+    span {
+      height: auto;
+      white-space: normal;
+      border-radius: 0;
+      border-left-width: 1px;
+    }
+
+    // borders
+    label, span, input, select, button, & > a {
+      border-width: 1px;
+      border-bottom-width: 0;
+      border-radius: 0;
+      &:first-child {
+        border-top-right-radius: $radius-general;
+        border-top-left-radius: $radius-general;
+      }
+
+      &:last-child {
+        border-bottom-right-radius: $radius-general;
+        border-bottom-left-radius: $radius-general;
+        border-bottom-width: 1px;
+      }
+    }
+  }
+}
+
+#unified-modal {
+  input[type='text'].jsDatepicker {
+    width: 110px;
+  }
+}
+
+
+// compound field colors
+.compound-field {
+  label {
+    background-image: linear-gradient(to bottom, #fff, transparent);
+    background-color: #DDD;
+    border-color: $border-grey-light;
+  }
+  span {
+    background-color: $inactive;
+    border-color: $border-grey-light;
+  }
+  button, & > a {
+    color: #666;
+  }
+  input, select, button, & > a {
+    border-color: $border-grey-light;
+    &:hover, &:focus {
+      border-color: $primary-light;
+    }
+  }
+  input, select {
+    &.changed-color {
+      background-color: $secondary-light;
+    }
+    &.readonly-color {
+      background-color: $inactive;
+    }
+  }
+  label, span, a {
+    &.missing {
+      background-color: $secondary-light;
+    }
+    &.active {
+      background-color: $success-light;
+    }
+    &.positive-color {
+      background-color: $success-light;
+    }
+    &.negative-color {
+      background-color: $danger-light;
+    }
+    &.changed-color {
+      background-color: $secondary-light;
+    }
+    &.inactive-color {
+      background-color: $grey-dark;
+      color: white;
+    }
+    &.default-color {
+      background-color: white;
+      color: #666;
+    }
+  }
+  button, & > a {
+    &:hover {
+      color: white;
+      background-color: $primary-light;
+    }
+  }
+}
+
+// compound field coloring for flash panels
+.flash-panel {
+  &.informational {
+    .compound-field {
+      label {
+        background-image: linear-gradient(to bottom, $tertiary-light, transparent);
+        background-color: #b99fec;
+      }
+      span {
+        background-color: #e1ddea;
+      }
+    }
+  }
+}
+
+
+input:disabled, textarea:disabled {
+  background-color: $inactive;
+}
+
+.unified-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  border-radius: $radius-general;
+  font-size: $font-header-large;
+  background-color: $primary-light-muted;
+  .loader-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    span {
+      padding-right: $padding-small;
+    }
+  }
+}
+
+// link button styling
+a.button-unified, input.button-unified {
+  font-size: $general-font;
+  background-color: $primary-light;
+  color: white;
+  padding: $padding-general;
+  display: inline-block;
+  border-radius: $radius-general;
+  box-sizing: border-box;
+  height: $height-input;
+  white-space: nowrap;
+  border: 0;
+  &.tertiary {
+    background-color: $tertiary;
+  }
+  &.danger {
+    background-color: $danger;
+  }
+  &.success {
+    background-color: $success;
+  }
+  &.inactive-button {
+    background-color: $inactive;
+  }
+  &:hover, &.selected {
+    cursor: pointer;
+    background-color: $secondary;
+    color: black;
+  }
+  &.full-width {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// defining all unified element z indices here to prevent oversights
+#unified-modal {
+  z-index: 2000;
+}
+
+.dropdown-menu {
+  z-index: 1999;
+}
+
+.gutter-shut-off {
+  z-index: 99;
+}
+
+#gutter-left, #gutter-right {
+  z-index: 98;
+}

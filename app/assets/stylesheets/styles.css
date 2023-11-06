@@ -17,3 +17,20 @@ html {
   background-color: rgb(76, 69, 69);
 
 }
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(7, 0, 0, 0.89); /* Button background color */
+  color: #fff; /* Button text color */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect for smooth color change */
+}
+
+.button:hover {
+  background-color: #b30000; /* New background color on hover */
+  color: #fff; /* New text color on hover */
+}

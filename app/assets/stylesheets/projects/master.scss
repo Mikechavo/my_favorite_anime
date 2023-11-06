@@ -1,0 +1,16 @@
+#projects.master {
+  & .columns-header {
+    background: #336699;
+  }
+  & .project {
+    & td:nth-child(1) {
+      padding-left: 40px;
+    }
+  }
+}
+
+a.account-link {  
+  color: black;
+  font-size: 1.1em;
+  font-weight: bold;
+}

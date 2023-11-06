@@ -1,0 +1,223 @@
+#new-project-form {
+  display: block;
+  padding: 50px 150px;
+
+  & a {
+    color: #00527a;
+    font-size: .94em;
+    letter-spacing: 1px;
+    line-height: 14px;
+    text-transform: uppercase;
+    &.site-info-url{
+      color: #0000EE;
+      letter-spacing: normal;
+      text-transform: none;
+    }
+  }
+  & aside {
+    font-size: .89em;
+    padding: 1px 7px;
+    text-align: left;
+  }
+  & div {
+    &#choose-project-type {
+      overflow: hidden;
+      text-align: left;
+      width: 100%;
+
+      & select {
+        border-radius: 0;
+        background: transparent;
+        font-size: 1.2em;
+        overflow: hidden;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+      }
+    }
+    &.kontrol-date { width: 40%; }
+    &.kontrol-group {
+      text-align: left;
+      & div {
+        &.options-container {
+          color: #565a5c;
+          display: block;
+          padding: 1px 0px;
+        }
+      }
+      & label {
+        border-radius: 4px;
+        color: #00527a;
+        font-size: .94em;
+        font-family: Arial;
+        padding: 4px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 100%;
+        &[for="project_priority"] { clear: both; }
+        &[for="type"] {
+          font-size: 1.04em;
+          font-weight: bold;
+        }
+        &.sub-label {
+          border: 1px solid #c4c4c4;
+          color: #565a5c;
+          display: inline-block;
+          padding: 8px 15px;
+          text-align: center;
+          width: 14%;
+          text-transform: none;
+        }
+      }
+    }
+    &.kontrol-radio {
+      width: 53%;
+
+      & input[type="radio"] {
+        display: none;
+        &:checked + label {
+          color: #fffffe;
+          background-color: #00527a;
+          font-weight: bold;
+        }
+      }
+    }
+    &.kontrol-select {
+      overflow: hidden;
+      width: 50%;
+
+      & select {
+        border-radius: 0;
+        background: transparent;
+        font-size: 1.15em;
+        overflow: hidden;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        &.time-types { width: 100%; }
+      }
+    }
+    &.one-col {
+      a, label { text-transform: none; }
+      div {
+        &.submit-container {
+          margin-top: 50px;
+          text-align: center;
+
+          input { text-transform: none; }
+        }
+      }
+      h2 { text-align: center; }
+      span {
+        &.attachment-caption {
+          left: 353px;
+          top: -12px;
+        }
+      }
+    }
+    &.row-spacing-1 { margin-bottom: 12.5px; }
+    &.row-spacing-2 { margin-bottom: 18.75px; }
+    &.row-spacing-H {
+      margin-top: 15px;
+      margin-bottom: 40.75px;
+    }
+    &.submit-container {
+      clear: both;
+      padding: 20px 0px;
+      width: 100%;
+
+      input[type="submit"] {
+        border-color: #00527a #00527a #039;
+        color: #00527a;
+        padding: 7px 13.5px;
+        text-transform: uppercase;
+      }
+    }
+    &.two-col {
+      border: 1px solid #eee;
+      width: 100%;
+
+      div {
+        &.left {
+          border-right: inset 1.4px #eee;
+          float: left;
+          padding: 20px;
+          width: 45%;
+
+          section {
+            padding-top: 10px;
+            &#attachments {
+              color: #00527a;
+              h2 {
+                &#attachments-header {
+                  padding-bottom: 0;
+                  text-align: center;
+                }
+              }
+              h6 {
+                font-size: 0.88em;
+                left: 47px;
+                position: relative;
+                text-align: center;
+              }
+            }
+          }
+
+        }
+        &.right {
+          color: #00527a;
+          float: right;
+          height: 790px;
+          padding: 19px 20px;
+          width: 45%;
+        }
+      }
+    }
+
+    a { &.cancel-attachment { font-size: .8em; } }
+    h2 {
+      font-size: 1.15em;
+      letter-spacing: 1px;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+    }
+    span {
+      &.attachment-caption {
+        font-size: .88em;
+        left: 47px;
+        position: relative;
+        top: -12px;
+      }
+    }
+    table {
+      &.attachment-field {
+        padding-bottom: 14px;
+        td { padding: 2px; }
+      }
+    }
+
+  }
+  form {
+    input[type="text"], [type="number"], textarea, select {
+      border: 1px solid #c4c4c4;
+      border-radius: 2px;
+      background-color: #fff;
+      color: #565a5c;
+      display: block;
+      font-size: 1.18em;
+      padding: 8px 10px;
+      width: 100%;
+
+      &.account-number { width: 50%; }
+      &.date-field { width: 50%; }
+      &.url {
+        line-height: 17px;
+        width: 97%;
+      }
+      &.title {
+        line-height: 17px;
+        width: 97%;
+      }
+    }
+  }
+}
