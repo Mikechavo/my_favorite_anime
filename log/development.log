@@ -5139,3 +5139,130 @@ Processing by GoblinSlayerController#show as HTML
 Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1099)
 
 
+Started GET "/" for 127.0.0.1 at 2023-11-06 01:58:25 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 31.3ms | Allocations: 26930)
+  Rendered layouts/_unified_modal.html.slim (Duration: 3.1ms | Allocations: 8659)
+  Rendered layouts/_unified_header.html.slim (Duration: 2.1ms | Allocations: 4180)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.4ms | Allocations: 2661)
+  Rendered layout layouts/unified.html.slim (Duration: 45.1ms | Allocations: 64676)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms | Allocations: 68489)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 01:58:33 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 1.5ms | Allocations: 1637)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 4276)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 5048)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 01:59:20 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 785)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1048)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 01:59:45 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 1.0ms | Allocations: 1636)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2707)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3601)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 01:59:48 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.3ms | Allocations: 16921)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.8ms | Allocations: 8638)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.1ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 13.0ms | Allocations: 54093)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 54603)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 01:59:50 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 812)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1077)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 01:59:52 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 798)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1064)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 01:59:56 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 779)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1042)
+
+
+Started GET "/goblin_slayer" for 127.0.0.1 at 2023-11-06 02:01:20 -0600
+Processing by GoblinSlayerController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering goblin_slayer/show.html.slim within layouts/application
+  Rendered goblin_slayer/show.html.slim within layouts/application (Duration: 1.2ms | Allocations: 1636)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2703)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3567)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:01:23 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 8.9ms | Allocations: 16943)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.3ms | Allocations: 8641)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.7ms | Allocations: 4169)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.2ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 20.2ms | Allocations: 54164)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 54675)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:03:29 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 286)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 996)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:05:02 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 271)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 903)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:07:00 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 271)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 904)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:08:30 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mchavez76/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 211)
+
+
