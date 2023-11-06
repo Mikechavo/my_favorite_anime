@@ -2571,3 +2571,12 @@ Processing by JjkController#index as HTML
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 975)
 
 
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:13:09 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 17.2ms | Allocations: 31348)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 34358)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 38330)
+
+
