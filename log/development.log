@@ -2571,6 +2571,7 @@ Processing by JjkController#index as HTML
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 975)
 
 
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2023-10-29 04:37:59 -0500
 Processing by JjkController#index as HTML
   Rendering layout layouts/application.html.erb
@@ -7270,5 +7271,23 @@ Processing by JjkController#index as HTML
   Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 8)
   Rendered layout layouts/unified.html.slim (Duration: 0.9ms | Allocations: 884)
 Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1108)
+=======
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:13:09 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 17.2ms | Allocations: 31348)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 34358)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 38330)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-06 02:16:00 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jjk/index.html.slim within layouts/application
+  Rendered jjk/index.html.slim within layouts/application (Duration: 7.9ms | Allocations: 31348)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 34363)
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 38333)
+>>>>>>> main
 
 
