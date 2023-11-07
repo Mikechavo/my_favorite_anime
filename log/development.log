@@ -7291,3 +7291,165 @@ Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 383
 >>>>>>> main
 
 
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:09:15 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 24.8ms | Allocations: 86737)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 89735)
+Completed 200 OK in 52ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 93745)
+
+
+Started GET "/jjk" for 127.0.0.1 at 2023-11-06 18:09:21 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 3.5ms | Allocations: 19399)
+  Rendered layouts/_unified_modal.html.slim (Duration: 1.9ms | Allocations: 8656)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.6ms | Allocations: 4180)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 3.2ms | Allocations: 2662)
+  Rendered layout layouts/unified.html.slim (Duration: 15.3ms | Allocations: 56865)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 57452)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:09:22 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 816)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1084)
+
+
+Started GET "/jjk" for 127.0.0.1 at 2023-11-06 18:09:30 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.1ms | Allocations: 48)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.2ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 1.1ms | Allocations: 892)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1115)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:09:33 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 815)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1078)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:10:16 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 9.9ms | Allocations: 77766)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 78846)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 79712)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:10:36 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 11.7ms | Allocations: 77763)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 78820)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 79684)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:10:51 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 10.0ms | Allocations: 78159)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 79237)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 80101)
+
+
+Started GET "/jjk" for 127.0.0.1 at 2023-11-06 18:11:10 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 4.3ms | Allocations: 19355)
+  Rendered layouts/_unified_modal.html.slim (Duration: 2.0ms | Allocations: 8641)
+  Rendered layouts/_unified_header.html.slim (Duration: 1.4ms | Allocations: 4173)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 1.3ms | Allocations: 2659)
+  Rendered layout layouts/unified.html.slim (Duration: 15.7ms | Allocations: 56554)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 57066)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:11:17 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 0.2ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 825)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1092)
+
+
+Started GET "/jjk" for 127.0.0.1 at 2023-11-06 18:13:48 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.1ms | Allocations: 48)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 0.9ms | Allocations: 885)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1121)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:13:51 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 825)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1089)
+
+
+Started GET "/jjk" for 127.0.0.1 at 2023-11-06 18:14:01 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.1ms | Allocations: 48)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 1.1ms | Allocations: 873)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1095)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:14:02 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 819)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1083)
+
+
+Started GET "/jjk" for 127.0.0.1 at 2023-11-06 18:14:10 -0600
+Processing by JjkController#index as HTML
+  Rendering layout layouts/unified.html.slim
+  Rendering jjk/index.html.slim within layouts/unified
+  Rendered jjk/index.html.slim within layouts/unified (Duration: 0.1ms | Allocations: 48)
+  Rendered layouts/_unified_modal.html.slim (Duration: 0.0ms | Allocations: 64)
+  Rendered layouts/_unified_header.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered jjk/_goblinslayer.html.slim (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/unified.html.slim (Duration: 0.9ms | Allocations: 888)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1110)
+
+
+Started GET "/berserk" for 127.0.0.1 at 2023-11-06 18:14:26 -0600
+Processing by BerserkController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering berserk/show.html.slim within layouts/application
+  Rendered berserk/show.html.slim within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 834)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1098)
+
+
